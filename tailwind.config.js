@@ -27,6 +27,9 @@ export default {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
           'homeBg': "url('/mide1.jpeg')"
       },
+      height: {
+        '400': '400px'
+      }
     },
   },
   plugins: [],

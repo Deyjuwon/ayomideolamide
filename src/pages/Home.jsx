@@ -7,15 +7,9 @@ import { Link } from 'react-router-dom';
 
 export default function Home() {
 
-
-
-
-
-
-
   return (
     <div className=' bg-homeBg h-screen brightness-100 bg-cover'>
-      {/* <Image src={homeBg} alt='home background' className='brightness-50 relative'></Image> */}
+  
       <div className=" text-white flex flex-col justify-center items-center gap-20" >
         
         <p  className='flex gap-3 flex-col justify-center items-center text-center pt-32 md:pt-20 text-white'><span className='text-5xl md:text-7xl px-10'>Make A Statement</span> <span className='text-6xl md:text-8xl'>WITHOUT SAYING</span><span className='text-7xl md:text-9xl'>A WORD</span></p>
