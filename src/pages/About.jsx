@@ -14,7 +14,7 @@ const About = () => {
   }, [])
 
   return (
-    <div className='pt-5 px-10 md:px-0 flex flex-col gap-10 pb-16' data-aos='fade-up'>
+    <div className='pt-5 px-5 md:px-0 flex flex-col gap-10 pb-10' data-aos='fade-up'>
         <div className='flex flex-col md:flex-row justify-center gap-10'>
           <img src={mideImg} alt="" className='object-cover h-400' />
           <div className='md:w-2/4 w-full flex flex-col gap-5'>
