@@ -13,8 +13,8 @@ const Contact = () => {
         <div className="pb-6"></div>
         <div className="flex gap-5 justify-center items-center">
           <a href="https://www.instagram.com/ajayiayomideo/instagram.com" target="_blank"><FaInstagram size={25} /></a>
-          <a href="https://www.twitter.com"><FaXTwitter size={25} /></a>
-          <a href="https://www.tiktok.com"><FaTiktok size={25} /></a>
+          <a href="https://www.twitter.com" target="_blank"><FaXTwitter size={25} /></a>
+          <a href="https://www.tiktok.com"  target="_blank"><FaTiktok size={25} /></a>
 
         </div>
 

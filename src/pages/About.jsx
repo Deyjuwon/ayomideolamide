@@ -32,7 +32,7 @@ const About = () => {
           </div>
           <div className='flex flex-col gap-5 w-full md:w-2/6'>
             <p className='text-base font-bold montserrat'>LET'S CREATE</p>
-            <p className='text-sm text-gray-500'>Want to shoot a story, advertisement or something completely different? Contact me through my <Link to='./contact' className='underline'>contact</Link> page.</p>
+            <p className='text-sm text-gray-500'>Want to shoot a story, advertisement or something completely different? Contact me through my <Link to='/contact' className='underline'>contact</Link> page.</p>
 
           </div>
 
