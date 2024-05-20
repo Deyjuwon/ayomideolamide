@@ -12,6 +12,8 @@ const Header = () => {
   const toggleDropdown = () => {
     setIsDropdownOpen(!isDropdownOpen);
   };
+  
+
 
   return (
     <div className="flex flex-row md:flex-col gap-10 items-center justify-between px-5 md:justify-around py-4 md:py-10">
@@ -24,10 +26,10 @@ const Header = () => {
         <nav>
           <ul className="text-sm text-gray-400 font-medium hidden md:flex gap-20 tracking-tight">
             <li className="relative" onMouseEnter={toggleDropdown} onMouseLeave={toggleDropdown}>
-              <Link to="" className="hover:text-gray-700 transition duration-200 flex ">
+              <p className="hover:text-gray-700 transition duration-200 flex cursor-pointer">
                 <span>COLLECTION</span>
                 <RiArrowDropDownLine size={20} />
-              </Link>
+              </p>
               {isDropdownOpen && (
                 <ul className="absolute  flex flex-col gap-1 top-full w-40 bg-stone-600 text-white z-50">
                   <li className="hover:bg-black p-2 cursor-pointer"><Link to="/collection/portraits">PORTRAITS</Link></li>
@@ -67,6 +69,8 @@ const Header = () => {
           </ul>
         </div>
       )}
+
+      
     </div>
   );
 }
