@@ -5,17 +5,13 @@
 body {
     
     font-family: "Lato", sans-serif;
+    height: 100%;
 }
 
 .montserrat {
     font-family: "Montserrat", sans-serif;
 }
 
-.news-cycle {
-    font-family: "News Cycle", sans-serif;
-}
-
-/* Add this CSS in your CSS file or within a <style> tag in your component */
 .image-container {
     position: relative;
     width: 100%;
@@ -57,3 +53,6 @@ body {
     opacity: 1;
   }
   
+
+
+

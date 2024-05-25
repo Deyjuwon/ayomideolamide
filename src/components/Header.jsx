@@ -2,16 +2,16 @@ import { Link } from 'react-router-dom';
 import { RxHamburgerMenu } from "react-icons/rx";
 import { IoMdClose } from "react-icons/io";
 import { useState } from "react";
-import { RiArrowDropDownLine } from "react-icons/ri";
+// import { RiArrowDropDownLine } from "react-icons/ri";
 
 
 const Header = () => {
   const [isOpened, setIsOpened] = useState(false);
-  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+  // const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
-  const toggleDropdown = () => {
-    setIsDropdownOpen(!isDropdownOpen);
-  };
+  // const toggleDropdown = () => {
+  //   setIsDropdownOpen(!isDropdownOpen);
+  // };
   
 
 
@@ -25,7 +25,8 @@ const Header = () => {
       <div className="flex items-center">
         <nav>
           <ul className="text-sm text-gray-400 font-medium hidden md:flex gap-20 tracking-tight">
-            <li className="relative" onMouseEnter={toggleDropdown} onMouseLeave={toggleDropdown}>
+            <li><Link to='/collection'>COLLECTION</Link></li>
+            {/* <li className="relative" onMouseEnter={toggleDropdown} onMouseLeave={toggleDropdown}>
               <p className="hover:text-gray-700 transition duration-200 flex cursor-pointer">
                 <span>COLLECTION</span>
                 <RiArrowDropDownLine size={20} />
@@ -39,7 +40,7 @@ const Header = () => {
                   <li className="hover:bg-black p-2 cursor-pointer"><Link to="/collection/vintage">VINTAGE</Link></li>
                 </ul>
               )}
-            </li>
+            </li> */}
             <li><Link to="/about" className="hover:text-gray-700 transition duration-200">ABOUT</Link></li>
             <li><Link to="/contact" className="hover:text-gray-700 transition duration-200">CONTACT</Link></li>
             <li><Link to="/testimonials" className="hover:text-gray-700 transition duration-200">TESTIMONIAL</Link></li>
