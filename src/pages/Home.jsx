@@ -41,8 +41,8 @@ export default function Home() {
           style={{ transform: `translateX(-${currentSlide * 100}%)` }}
         >
           {images.map((image, index) => (
-            <div key={index} className="min-w-full h-full flex-shrink-0 flex justify-center items-center ">
-              <img src={image.src} alt={image.alt} className=" w-screen md:w-3/4 h-full object-cover rounded-lg" />
+            <div key={index} className=" min-w-full h-full flex-shrink-0 flex justify-center items-center ">
+              <img src={image.src} alt={image.alt} className=" w-screen  md:w-3/4 h-full object-cover rounded-lg" />
             </div>
           ))}
         </div>

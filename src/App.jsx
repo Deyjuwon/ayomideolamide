@@ -11,6 +11,7 @@ import Sports from './pages/Sports'
 import Nature from './pages/Nature'
 import Portraits from './pages/Portraits'
 import Art from './pages/Art'
+import HomePage from './pages/HomePage'
 
 
 function App() {
@@ -32,7 +33,7 @@ function App() {
       <Route path="/collection/nature" element={<Nature />} />
       <Route path="/collection/concert" element={<Concert />} />
       <Route path="/collection/art" element={<Art />} />
-      
+      <Route path="/homepage" element={<HomePage />} />
 
      </Routes>
 

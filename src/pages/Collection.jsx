@@ -41,22 +41,6 @@ export default function Collection() {
         ))}
       </div>
 
-      {/* <div className='bg-stone-600 text-white w-full flex flex-col gap-5 items-center justify-center py-20 text-center'>
-        <p className='text-base md:text-xl font-medium'>
-          Ayomide Olamide is a talented photographer <br /> and creative director based in Lagos, Nigeria.
-        </p>
-        <div className="flex gap-5 justify-center items-center">
-          <a href="https://www.instagram.com/ajayiayomideo/" target="_blank" rel="noopener noreferrer">
-            <FaInstagram size={25} />
-          </a>
-          <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
-            <FaXTwitter size={25} />
-          </a>
-          <a href="https://www.tiktok.com" target="_blank" rel="noopener noreferrer">
-            <FaTiktok size={25} />
-          </a>
-        </div>
-      </div> */}
 
       <div className='pt-24 pb-8'>
         <Footer />

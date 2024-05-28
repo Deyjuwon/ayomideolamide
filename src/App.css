@@ -6,6 +6,9 @@ body {
     
     font-family: "Lato", sans-serif;
     height: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 .montserrat {
@@ -53,6 +56,10 @@ body {
     opacity: 1;
   }
   
+
+  .rotate {
+    transform: rotate(-90deg);
+  }
 
 
 
