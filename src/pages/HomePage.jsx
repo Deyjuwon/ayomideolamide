@@ -4,15 +4,15 @@ import Footer from '../components/Footer';
 const HomePage = () => {
   return (
     <div className='flex flex-col w-full gap-10 justify-center items-center '>
-      <div className='relative w-3/4 '>
-        <div className=''>
-          <p className='transform -rotate-90 flex flex-col gap-0 left-40 absolute'>
-            <span>AJAYI AYOMIDE OLAMIDE</span>
-            <span>Photography</span>
+      <div className='relative w-full flex justify-center'>
+        <div className='absolute rotate w-fit h-fit  top-36 -left-28 '>
+          <p className=' flex flex-col gap-0 tracking-wider '>
+            <span className='text-2xl'>AJAYI AYOMIDE OLAMIDE</span>
+            <span className='text-xs'>Photography</span>
           </p>
           
         </div>
-        <img src={aa4} alt="" className=' max-w-64  max-h-72' />
+        <img src={aa4} alt="" className=' w-64 min-h-80' />
 
       </div>
       
