@@ -1,38 +1,56 @@
-import aa4 from '../assets/mide4.jpeg';
-import Footer from '../components/Footer';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Footer from '../components/Footer';
 
-const HomePage = () => {
+import aa4 from '../assets/mide7.jpeg';
+import concert from '../assets/mide5.jpeg';
+import art from '../assets/art.jpg';
+import wed from '../assets/weddings.jpeg';
+import sports from '../assets/sports.jpeg';
+import nature from '../assets/mide2.jpeg';
+
+const images = [
+  { src: aa4, alt: "Mide Event" },
+  { src: concert, alt: "Concert" },
+  { src: art, alt: "Art Exhibition" },
+  { src: wed, alt: "Wedding" },
+  { src: sports, alt: "Sports Event" },
+  { src: nature, alt: "Nature" }
+];
+
+export default function HomePage() {
+  const [currentSlide, setCurrentSlide] = useState(0);
+
   useEffect(() => {
-    AOS.init({ duration: 2500, once: true });
-  }, []);
-  return (
-    <div className='flex flex-col w-full gap-10 justify-center items-center '>
-      <div className='relative w-full flex justify-center'>
-        <div className='absolute rotate w-fit h-fit  top-36 -left-28 '>
-          <p className=' flex flex-col gap-0 tracking-wider '>
-            <span className='text-2xl'>AJAYI AYOMIDE OLAMIDE</span>
-            <span className='text-xs'>Photography</span>
-          </p>
-          
-        </div>
-        <img data-aos='zoom-in' src={aa4} alt="" className='object-cover w-64 min-h-80' />
+    AOS.init();
 
-      </div>
+    const interval = setInterval(() => {
+      setCurrentSlide((prevSlide) => (prevSlide + 1) % images.length);
+    }, 3000);
+
+    return () => clearInterval(interval);
+  }, []);
+
+  return (
+    <div className="h-screen w-full">
       
-      <div>
-        <img src={aa4} alt="" className='object-cover w-36 h-44' data-aos='fade-left' />
+      <section className="relative overflow-hidden h-full">
+        <div 
+          className="absolute top-0 left-0 flex transition-transform duration-500 ease-in-out h-full w-full" 
+          style={{ transform: `translateX(-${currentSlide * 100}%)` }}
+        >
+          {images.map((image, index) => (
+            <div key={index} className=" min-w-full h-full flex-shrink-0 flex justify-center items-center ">
+              <img src={image.src} alt={image.alt} className=" w-screen  md:w-3/4 h-full object-cover rounded-lg" />
+            </div>
+          ))}
+        </div>
+      </section>
+      
+      <div className='pt-24 pb-8'>
+        <Footer />
       </div>
-      <div className='flex flex-col justify-center items-center gap-10'>
-        <img src={aa4} alt="" data-aos='fade-right' className='object-cover w-48- h-60' />
-        <p className='text-xs w-4/6 text-gray-500'>“jfuufuf fhfj fhfif fjjf hfj . ddbd hd fhuk,fjfjl,f fjjd, fj hdn qghw hyfu dhejhdbfj dhdh dbhdhdn” </p>
-        <button className='h-10 w-32 flex items-center justify-center border border-gray-300 bg-transparent text-xs font-normal'>SEE COLLECTION</button>
-      </div>
-      <Footer />
     </div>
   );
-};
-
-export default HomePage;
+}
