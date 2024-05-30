@@ -2,7 +2,6 @@ import { useEffect, useState } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Footer from '../components/Footer';
-
 import aa4 from '../assets/mide7.jpeg';
 import concert from '../assets/mide5.jpeg';
 import art from '../assets/art.jpg';
