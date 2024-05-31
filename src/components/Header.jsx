@@ -37,6 +37,7 @@ const Header = () => {
           </ul>
         </nav>
       </div>
+      
 
       {isOpened ? (
         <div className='bg-white rounded-full flex items-center justify-center h-11 w-11 md:hidden z-50'>
