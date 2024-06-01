@@ -11,8 +11,9 @@ const Home = () => {
     AOS.init({ duration: 2500, once: true });
   }, []);
   return (
-    <div>
-      
+    <div className='h-screen w-full'>
+      <img src={aa4} alt="" />
+
     </div>
     
   );

@@ -20,7 +20,7 @@ const Header = () => {
 
 
   return (
-    <div className="flex flex-row md:flex-col gap-10 items-center justify-between px-5 md:justify-around py-4 md:py-10">
+    <div className="flex  flex-row md:flex-col gap-10 items-center justify-between px-5 md:justify-around py-4 md:py-10">
       <div>
         <p className="text-sm md:text-xl font-bold tracking-wider md:tracking-widestt logo">
           <Link to='/'>AYOMIDE OLAMIDE</Link>
@@ -60,6 +60,8 @@ const Header = () => {
           </ul>
         </div>
       )}
+
+     
 
       
     </div>
