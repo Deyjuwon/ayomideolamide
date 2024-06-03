@@ -7,9 +7,13 @@ export default {
   theme: {
     extend: {
       colors: {
-        'darkWhite': 'f5f5f7',
-        'lightBlack': 'D9D9D9',
-        'darkBlack': '737373',
+        'darkWhite': '#f5f5f7',
+        'lightBlack': '#D9D9D9',
+        'darkBlack': '#737373',
+        'green1': '#7B876D',
+        'green2': '#989E8B',
+        'brown1': '#DDB8A6',
+        'brown2': '#D49B7E'
       },
       letterSpacing: {
         tightest: '-.075em',

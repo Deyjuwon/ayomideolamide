@@ -20,7 +20,7 @@ const Header = () => {
 
 
   return (
-    <div className="flex  flex-row md:flex-col gap-10 items-center justify-between px-5 md:justify-around py-4 md:py-10">
+    <div className="flex sticky top-0  flex-row md:flex-col gap-8 items-center justify-between px-5 md:justify-around py-4 md:py-6">
       <div>
         <p className="text-sm md:text-xl font-bold tracking-wider md:tracking-widestt logo">
           <Link to='/'>AYOMIDE OLAMIDE</Link>
@@ -29,7 +29,7 @@ const Header = () => {
       <div className="flex items-center">
         <nav>
           <ul className="text-sm text-gray-400 font-medium hidden md:flex gap-20 tracking-tight">
-            <li><Link to='/collection'>COLLECTION</Link></li>
+            <li><Link to='/collection' className="hover:text-gray-700 transition duration-200">COLLECTION</Link></li>
             <li><Link to="/about" className="hover:text-gray-700 transition duration-200">ABOUT</Link></li>
             <li><Link to="/contact" className="hover:text-gray-700 transition duration-200">CONTACT</Link></li>
             <li><Link to="/testimonials" className="hover:text-gray-700 transition duration-200">TESTIMONIAL</Link></li>

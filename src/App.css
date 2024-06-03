@@ -57,13 +57,9 @@ body {
 }
   
 
-.rotate {
-  transform: rotate(-90deg);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%; /* Ensure it matches the height of the image */
-}
+
+
+
 
 
 

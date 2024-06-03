@@ -20,8 +20,11 @@ function App() {
   return (
     <div>
       
+      <div className="sticky top-0 left-0 w-full bg-white shadow-md z-50">
+        <Header />
+
+      </div>
       
-      <Header />
       <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/about" element={<About />} />
