@@ -8,6 +8,7 @@ import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { Link } from 'react-router-dom';
+import { FaLink } from "react-icons/fa6";
 
 const Home = () => {
   useEffect(() => {
@@ -58,8 +59,9 @@ const Home = () => {
           
         </div>
       </section>
-      <section className='flex justify-center items-center py-10'>
-        <p className='lg:text-3xl font-medium'>LETS CREATE MAGIC TOGETHER!</p>
+      <section className='flex justify-center gap-2 items-center py-10'>
+        <p className='lg:text-3xl text-base font-medium'>LETS CREATE MAGIC TOGETHER!</p>
+        <Link to='/contact'><FaLink size={20} /></Link>
       </section>
 
       <div className='py-10'>
