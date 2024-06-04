@@ -1,6 +1,8 @@
 import { FaInstagram } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaTiktok } from "react-icons/fa";
+import Footer from "../components/Footer";
+
 
 const Contact = () => {
   return (
@@ -20,6 +22,10 @@ const Contact = () => {
 
       </div>
       <div className="border-t-2 w-4/5"></div>
+
+      <div className='pt-24'>
+        <Footer />
+      </div>
     </div>
   )
 }
