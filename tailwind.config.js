@@ -14,7 +14,7 @@ export default {
         'green2': '#989E8B',
         'brown1': '#DDB8A6',
         'brown2': '#D49B7E',
-        'yellow1': '#FFEFBA',
+        'yellow1': '#F5F5DC',
       },
       letterSpacing: {
         tightest: '-.075em',
