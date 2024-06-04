@@ -17,6 +17,7 @@ export default function Collection() {
 
   useEffect(() => {
     AOS.init({ duration: 2000, once: true });
+    window.scrollTo(0,0);
   }, []);
 
   const images = [

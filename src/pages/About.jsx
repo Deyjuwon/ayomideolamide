@@ -9,8 +9,10 @@ import { useEffect } from 'react'
 
 const About = () => {
 
+
   useEffect(() => {
       AOS.init({duration:2000})
+      window.scrollTo(0,0);
   }, [])
 
   return (
