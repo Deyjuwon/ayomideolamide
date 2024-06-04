@@ -13,7 +13,8 @@ export default {
         'green1': '#7B876D',
         'green2': '#989E8B',
         'brown1': '#DDB8A6',
-        'brown2': '#D49B7E'
+        'brown2': '#D49B7E',
+        'yellow1': '#FFEFBA',
       },
       letterSpacing: {
         tightest: '-.075em',

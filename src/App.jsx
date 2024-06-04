@@ -20,7 +20,7 @@ function App() {
   return (
     <div>
       
-      <div className="sticky top-0 left-0 w-full bg-white shadow-md z-50">
+      <div className="">
         <Header />
 
       </div>
