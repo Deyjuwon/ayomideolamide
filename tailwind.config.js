@@ -24,7 +24,7 @@ export default {
         wide: '.025em',
         wider: '.05em',
         widerr: '.4em',
-        widestt: '.8em',
+        widestt: '.7em',
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

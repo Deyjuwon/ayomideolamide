@@ -1,10 +1,17 @@
+import { useEffect } from'react'
 import { FaInstagram } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaTiktok } from "react-icons/fa";
 import Footer from "../components/Footer";
 
 
+
 const Contact = () => {
+  useEffect(() => {
+   
+    window.scrollTo(0,0);
+}, [])
+
   return (
     <div className="flex flex-col justify-center text-center items-center pt-40">
       <div className="border-t-2 w-4/5 pb-7"></div>

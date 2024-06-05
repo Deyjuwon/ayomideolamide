@@ -10,6 +10,7 @@ import 'aos/dist/aos.css';
 import { Link } from 'react-router-dom';
 import { FaLink } from "react-icons/fa6";
 
+
 const Home = () => {
   useEffect(() => {
     AOS.init({ duration: 2500, once: true });
@@ -17,14 +18,14 @@ const Home = () => {
   return (
     <div>
       <div className='w-full'>
-        <img src={aa7} alt="" className='lg:h-full h-3/4 w-full object-cover ' />
+        <img src={aa7} alt="" className='lg:h-2/4 h-3/4 w-full object-cover ' />
       </div>
       <section className='flex flex-col gap-4 lg:flex-row items-center justify-center py-10 bg-gradient-to-b md:bg-gradient-to-r from-white to-yellow1 text-darkBlack'>
         <div className='lg:w-1/2 w-full px-4' data-aos='fade-right'>
             <p className='lg:text-3xl lg:px-16  text-center font-bold'>CAPTURING MOMENTS FOR GENERATIONS TO COME</p>
         </div>
         <div className='lg:w-1/2 w-full flex flex-col gap-5 px-4 md:px-14' data-aos='fade-left'>
-          <p className='lg:text-sm  text-xs lg:pr-20 lg:leading-8 leading-6 font-semibold  '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti vitae similique accusantium velit dolores explicabo quaerat reiciendis fugiat tenetur obcaecati beatae odit aut recusandae quod architecto omnis, sed provident impedit.
+          <p className='lg:text-sm  text-xs lg:pr-20 lg:leading-8 leading-6  '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti vitae similique accusantium velit dolores explicabo quaerat reiciendis fugiat tenetur obcaecati beatae odit aut recusandae quod architecto omnis, sed provident impedit.
           Iste error ducimus voluptates tempora aspernatur asperiores atque ut quaerat accusantium maxime, fugit, obcaecati placeat. Quisquam quidem sunt ipsum non assumenda? Repudiandae quos rerum inventore non obcaecati consequuntur architecto aliquid?
           Temporibus beatae itaque, possimus velit eaque, maiores nostrum maxime quia assumenda incidunt quae consectetur. Neque error tempora iure vitae nulla consequuntur aperiam impedit, exercitationem repellendus, quibusdam possimus labore odit minima?
           Animi nobis beatae esse eligendi officiis cum qui voluptatum et atque saepe maiores doloremque, maxime quo illo omnis amet molestiae possimus dicta minus. Quos, dolorum eum! Eaque aliquam odit in mus velit eaque, maiores nostrum maxime quia assumenda incidunt quae consectetur. Neque error tempora iure vitae nulla consequuntur aperiam impedit, exercitationem repellendus, quibusdam possimus labore odit minima?
@@ -50,7 +51,7 @@ const Home = () => {
         </div>
         
         <div className='lg:w-1/2 w-full flex flex-col gap-5 px-4 md:px-14' data-aos='zoom-in'>
-          <p className='lg:text-sm text-xs lg:pr-20 lg:leading-8 leading-6 font-semibold'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic porro fugiat dolor ut. Magnam minus, asperiores expedita nemo rerum minima ullam incidunt odit, cum nostrum, eveniet suscipit quis nulla quasi?
+          <p className='lg:text-sm text-xs lg:pr-20 lg:leading-8 leading-6 '>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic porro fugiat dolor ut. Magnam minus, asperiores expedita nemo rerum minima ullam incidunt odit, cum nostrum, eveniet suscipit quis nulla quasi?
           Deserunt incidunt officiis aliquam quo architecto aspernatur, fugit exercitationem molestias non a tempore, ratione laudantium optio maxime corrupti. Eum nihil aliquid quaerat odit quis nam iste repel.</p>
           <div className='self-center lg:self-start'>
             <Link to='/about'><button className='border border-gray-500 hover:bg-darkBlack hover:text-darkWhite h-12 w-36 text-xs lg:text-sm lg:h-16 lg:w-44'>MORE ABOUT ME</button></Link>
@@ -74,6 +75,6 @@ const Home = () => {
   
     
   );
-};
+}; 
 
 export default Home;
