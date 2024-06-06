@@ -16,7 +16,7 @@ const About = () => {
   }, [])
 
   return (
-    <div className='pt-5 px-5 md:px-0 flex flex-col gap-10 pb-10' data-aos='fade-up'>
+    <div className='pt-5 px-5 md:px-4 lg:px-0 flex flex-col gap-10 pb-10' data-aos='fade-up'>
         <div className='flex flex-col md:flex-row justify-center gap-10'>
           <img src={mideImg} alt="" className='object-cover h-400' />
           <div className='md:w-2/4 w-full flex flex-col gap-5'>
@@ -27,12 +27,12 @@ const About = () => {
             Aliquam cumque</span></p>
           </div>
         </div>
-        <div className=' flex flex-col md:flex-row justify-between gap-10 md:px-44 pb-20 '>
-          <div className='flex flex-col gap-5 w-full md:w-2/5'>
+        <div className=' flex flex-col md:flex-row justify-between gap-10 md:px-4 lg:px-44 pb-20 '>
+          <div className='flex flex-col gap-5 w-full md:w-full lg:w-2/5'>
             <p className='text-base font-bold montserrat'>WORKED FOR AND WITH</p>
             <p className='md:text-sm text-xs text-gray-500'>rerum ut aliquam, quo eum omnis, reprehenderit aperiam, nam iusto, consequuntur ipsa, at harum exercitationem, repellat dolorum quis, unde esse dicta, quia nemo.</p>
           </div>
-          <div className='flex flex-col gap-5 w-full md:w-2/6'>
+          <div className='flex flex-col gap-5 w-full lg:w-2/6'>
             <p className='text-base font-bold montserrat'>LET'S CREATE</p>
             <p className='md:text-sm  text-xs text-gray-500'>Want to shoot a story, advertisement or something completely different? Contact me through my <Link to='/contact' className='underline'>contact</Link> page.</p>
 
