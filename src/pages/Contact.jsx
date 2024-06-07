@@ -40,20 +40,20 @@ const Contact = () => {
     <div className='flex flex-col gap-40'>
       <div className='flex pt-10 md:pt-20 justify-center md:flex-row flex-col gap-6 md-gap-0'>
         <div className='w-full md:w-2/5 flex  flex-col gap-2 md:gap-5 px-4 md:px-0 ' data-aos="zoom-out">
-          <div className='flex gap-1 items-center flex-col md:flex-row'>
+          <div className='flex gap-1 items-center'>
             <p className='text-2xl md:text-4xl'>LETS WORK TOGETHER</p>
             <GoArrowDownRight size={40} />
 
           </div>
           
-          <p className='w-full md:w-2/3 text-sm text-gray-500 self-center'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam eum recusandae earum delectus vel unde tempora sit mollitia fuga, molestiae quidem impedit.</p>
+          <p className='w-full md:w-2/3 text-xs md:text-sm text-gray-500 '>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam eum recusandae earum delectus vel unde tempora sit mollitia fuga, molestiae quidem impedit.</p>
           <div className='flex flex-col gap-2'>
-            <p className='text-gray-500 font-semibold text-sm'>Call me:</p>
-            <p className='text-sm text-gray-500 '>+234 9033 221 222</p>
+            <p className='text-gray-500 font-semibold md:text-sm text-xs'>Call me:</p>
+            <p className='text-xs md:text-sm text-gray-500 '>+234 9033 221 222</p>
           </div>
           
           <div className='flex flex-col gap-2'>
-            <p className='text-gray-500 font-semibold text-sm '>Follow me:</p>
+            <p className='text-gray-500 font-semibold text-xs md:text-sm '>Follow me:</p>
             <div className='flex gap-4'>
               <a href="https://www.instagram.com/ajayiayomideo/instagram.com" target="_blank"><FaInstagram size={20} /></a>
               <a href="https://www.twitter.com" target="_blank"><FaXTwitter size={18} /></a>
