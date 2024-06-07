@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 // import { FaInstagram, FaTiktok } from "react-icons/fa";
 // import { FaXTwitter } from "react-icons/fa6";
 import AOS from 'aos';
@@ -12,13 +12,20 @@ import art from '../assets/art.jpg'
 import wed from '../assets/weddings.jpeg'
 import sports from '../assets/sports.jpeg'
 import nature from '../assets/nature.jpeg'
+import Skeleton from '../components/Skeleton';
 
 export default function Collection() {
-
+  const [loading, setLoading] = useState(true);
   useEffect(() => {
     AOS.init({ duration: 2000, once: true });
-    window.scrollTo(0,0);
+    window.scrollTo(0, 0);
+    
+    // Simulate a loading delay
+    setTimeout(() => {
+      setLoading(false);
+    }, 3000);
   }, []);
+  
 
   const images = [
     { src: aa4, text: 'Portrait', link: '/collection/portraits' },
@@ -32,14 +39,14 @@ export default function Collection() {
   return (
     <div>
       <div className='grid grid-cols-1 md:grid-cols-3 gap-0'>
-        {images.map((image, index) => (
+        {!loading ? images.map((image, index) => (
           <Link to={image.link} key={index} className='image-container' data-aos='zoom-in'>
             <img src={image.src} alt={`${image.text} photography`} />
             <div className='overlay text-base'>
               {image.text}
             </div>
           </Link>
-        ))}
+        )) : [1, 2, 3, 4, 5, 6].map(n => <Skeleton key={n} />)}
       </div>
 
 
@@ -47,5 +54,6 @@ export default function Collection() {
         <Footer />
       </div>
     </div>
+    
   );
 }

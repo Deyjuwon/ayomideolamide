@@ -14,6 +14,7 @@ import { FaLink } from "react-icons/fa6";
 const Home = () => {
   useEffect(() => {
     AOS.init({ duration: 2500, once: true });
+    window.scrollTo(0, 0);
   }, []);
   return (
     <div>

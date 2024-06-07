@@ -12,7 +12,8 @@ import Nature from './pages/Nature'
 import Portraits from './pages/Portraits'
 import Art from './pages/Art'
 import HomePage from './pages/HomePage'
-
+import Footer from './components/Footer'
+Footer
 
 function App() {
 
@@ -39,7 +40,7 @@ function App() {
       <Route path="/homepage" element={<HomePage />} />
 
      </Routes>
-
+      
     </div>
 
     

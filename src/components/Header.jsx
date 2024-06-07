@@ -22,7 +22,7 @@ const Header = () => {
   return (
     <div className="flex  flex-row md:flex-col lg:gap-8 md:gap-4 items-center justify-between px-5 md:justify-around py-4 md:py-6 ">
       <div>
-        <p className="text-sm md:text-xl  tracking-wider md:tracking-widestt font-normal logo">
+        <p className="text-sm md:text-xl  tracking-wider md:tracking-widestt font-bold logo">
           <Link to='/'>AYOMIDE OLAMIDE</Link>
         </p>
       </div>
