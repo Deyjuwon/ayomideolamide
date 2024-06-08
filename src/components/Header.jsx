@@ -56,7 +56,7 @@ const Header = () => {
             <li><Link to="/about" className="hover:text-gray-700 transition duration-200" onClick={handleNavLinkClick}>ABOUT</Link></li>
             <li><Link to="/contact" className="hover:text-gray-700 transition duration-200" onClick={handleNavLinkClick}>CONTACT</Link></li>
             <li><Link to="/testimonials" className="hover:text-gray-700 transition duration-200" onClick={handleNavLinkClick}>TESTIMONIAL</Link></li>
-            <li><Link to="/bookcall" className="hover:text-gray-700 transition duration-200" onClick={handleNavLinkClick}>BOOK A CALL</Link></li>
+            <li><Link to="/faq" className="hover:text-gray-700 transition duration-200" onClick={handleNavLinkClick}>FAQ</Link></li>
           </ul>
         </div>
       )}
