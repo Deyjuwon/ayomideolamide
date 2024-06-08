@@ -32,6 +32,9 @@ const Home = () => {
   };
   useEffect(() => {
     AOS.init({ duration: 2500, once: true });
+    setTimeout(() => {
+      setLoading(false);
+    }, 3000);
 
     
     
@@ -39,7 +42,7 @@ const Home = () => {
   return (
     <div>
 
-      {loading?<div className='w-full'>
+      {!loading?<div className='w-full'>
         <img src={aa7} alt="" className='lg:h-2/4 h-3/4 w-full object-cover ' />
       </div> : <div className='h-screen '><SkeletonHome /></div>}
       <section className='flex flex-col gap-4 lg:flex-row items-center justify-center py-10 bg-gradient-to-b md:bg-gradient-to-r from-white to-yellow1 text-darkBlack'>
@@ -83,7 +86,7 @@ const Home = () => {
         </div>
       </section>
       
-      <section className='flex justify-center items-center flex-col gap-10 py-20 text-sm'>
+      {/* <section className='flex justify-center items-center flex-col gap-10 py-20 text-sm'>
       <p className='text-xl md:text-3xl '>WHAT PEOPLE ARE SAYING</p>
       <div className=' flex justify-center md:gap-20 items-center px-4'>
         <div className='cursor-pointer' onClick={handlePrevClick}>
@@ -107,7 +110,7 @@ const Home = () => {
         </div>
         
       </div>
-    </section>
+    </section> */}
       <section className='flex justify-center gap-2 items-center py-10'>
         <p className='lg:text-3xl text-base font-medium'>LETS CREATE MAGIC TOGETHER!</p>
         <Link to='/contact'><FaLink size={20} /></Link>
