@@ -12,8 +12,7 @@ import Nature from './pages/Nature'
 import Portraits from './pages/Portraits'
 import Art from './pages/Art'
 import HomePage from './pages/HomePage'
-import Footer from './components/Footer'
-Footer
+import Faq from './pages/Faq'
 
 function App() {
 
@@ -31,6 +30,7 @@ function App() {
       <Route path="/about" element={<About />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="/collection" element={<Collection />} />
+      <Route path="/faq" element={<Faq />} />
       <Route path="/collection/portraits" element={<Portraits />} />
       <Route path="/collection/weddings" element={<Weddings />} />
       <Route path="/collection/sports" element={<Sports />} />

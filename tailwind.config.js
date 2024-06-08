@@ -30,7 +30,9 @@ export default {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-          'homeBg': "url('/mide1.jpeg')"
+          'homeBg': "url('/mide1.jpeg')",
+          'hero-pattern': "url('/src/assets/nature.jpeg')",
+          
       },
       height: {
         '400': '400px',
@@ -39,7 +41,8 @@ export default {
       },
       width: {
         '420': '420px',
-        '314':`314px`
+        '314':`314px`,
+        '560': '560px',
       },
       fontSize: {
         
