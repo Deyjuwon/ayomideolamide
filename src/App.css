@@ -59,7 +59,16 @@ body {
 }
 
 
+.homeImg {
+  height: 100vh;
+}
 
+/* For mobile devices */
+@media only screen and (max-width: 768px) {
+  .homeImg {
+    height: 50vh;
+  }
+}
 
 
   

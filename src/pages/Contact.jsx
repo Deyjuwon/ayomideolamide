@@ -46,14 +46,14 @@ const Contact = () => {
 
           </div>
           
-          <p className='w-full md:w-2/3 text-xs md:text-sm text-gray-500 '>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam eum recusandae earum delectus vel unde tempora sit mollitia fuga, molestiae quidem impedit.</p>
+          <p className='w-full md:w-2/3 text-sm md:text-sm text-gray-500 '>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam eum recusandae earum delectus vel unde tempora sit mollitia fuga, molestiae quidem impedit.</p>
           <div className='flex flex-col gap-2'>
-            <p className='text-gray-500 font-semibold md:text-sm text-xs'>Call me:</p>
-            <p className='text-xs md:text-sm text-gray-500 '>+234 9033 221 222</p>
+            <p className='text-gray-500 font-semibold md:text-sm text-sm'>Call me:</p>
+            <p className='text-sm md:text-sm text-gray-500 '>+234 9033 221 222</p>
           </div>
           
           <div className='flex flex-col gap-2'>
-            <p className='text-gray-500 font-semibold text-xs md:text-sm '>Follow me:</p>
+            <p className='text-gray-500 font-semibold text-sm md:text-sm '>Follow me:</p>
             <div className='flex gap-4'>
               <a href="https://www.instagram.com/ajayiayomideo/instagram.com" target="_blank"><FaInstagram size={20} /></a>
               <a href="https://www.twitter.com" target="_blank"><FaXTwitter size={18} /></a>
