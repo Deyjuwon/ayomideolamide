@@ -10,9 +10,9 @@ import 'aos/dist/aos.css';
 import { Link } from 'react-router-dom';
 import { FaLink } from "react-icons/fa6";
 import SkeletonHome from '../components/SkeletonHome';
-import { MdArrowBackIos } from "react-icons/md";
-import { MdArrowForwardIos } from "react-icons/md";
-import testimonialData from '../testimonial'
+// import { MdArrowBackIos } from "react-icons/md";
+// import { MdArrowForwardIos } from "react-icons/md";
+// import testimonialData from '../testimonial'
 
 
 
@@ -20,21 +20,21 @@ const Home = () => {
   // eslint-disable-next-line no-unused-vars
   const [loading, setLoading] = useState(true);
 
-  const [currentIndex, setCurrentIndex] = useState(0);
+  // const [currentIndex, setCurrentIndex] = useState(0);
 
 
-  const handlePrevClick = () => {
-    setCurrentIndex((currentIndex - 1 + testimonialData.length) % testimonialData.length);
-  };
+  // const handlePrevClick = () => {
+  //   setCurrentIndex((currentIndex - 1 + testimonialData.length) % testimonialData.length);
+  // };
 
-  const handleNextClick = () => {
-    setCurrentIndex((currentIndex + 1) % testimonialData.length);
-  };
+  // const handleNextClick = () => {
+  //   setCurrentIndex((currentIndex + 1) % testimonialData.length);
+  // };
   useEffect(() => {
     AOS.init({ duration: 2500, once: true });
     setTimeout(() => {
       setLoading(false);
-    }, 3000);
+    }, 2000);
 
     
     

@@ -23,7 +23,7 @@ export default function Collection() {
     // Simulate a loading delay
     setTimeout(() => {
       setLoading(false);
-    }, 3000);
+    }, 2000);
   }, []);
   
 
@@ -38,7 +38,7 @@ export default function Collection() {
 
   return (
     <div>
-      <div className='grid grid-cols-1 md:grid-cols-3 gap-0'>
+      <div className='grid grid-cols-1 md:grid-cols-3 gap-0 min-h-screen'>
         {!loading ? images.map((image, index) => (
           <Link to={image.link} key={index} className='image-container' data-aos='zoom-in'>
             <img src={image.src} alt={`${image.text} photography`} />
