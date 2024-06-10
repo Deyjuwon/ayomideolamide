@@ -66,7 +66,7 @@ const Contact = () => {
         <form className=' w-full p-4 md:w-2/5 flex flex-col gap-4' action="" data-aos='zoom-in'>
           <input placeholder='Full name' type="text" className='border border-gray-300 h-11 pl-4 text-sm outline-none' />
           <input placeholder='Email' type="text" className='border border-gray-300 h-11 pl-4 text-sm outline-none' />
-          <textarea placeholder='Description' name="" id="" cols="30" rows="10" className='border border-gray-300 pl-4 pt-1 text-sm outline-none'></textarea>
+          <textarea placeholder='Description' name="" id="" cols="30" rows="10" className='border border-gray-300 pl-4 pt-2 text-sm outline-none'></textarea>
           <button type="submit" className='border h-11  border-gray-300 hover:bg-darkBlack hover:text-darkWhite text-gray-500 text-sm '>Get in touch</button>
         </form>
       

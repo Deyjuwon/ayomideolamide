@@ -61,7 +61,7 @@ const Home = () => {
           Animi nobis beatae esse eligendi officiis cum qui voluptatum et atque saepe maiores doloremque, maxime quo illo omnis amet molestiae possimus dicta minus. Quos, dolorum eum! Eaque aliquam odit in mus velit eaque, maiores nostrum maxime quia assumenda incidunt quae consectetur. Neque error tempora iure vitae nulla consequuntur aperiam impedit, exercitationem repellendus, quibusdam possimus labore odit minima?
           Animi nobis beatae esse eligendi o.</p>
           <div className=' self-center lg:self-start'>
-            <Link to='/collection'><button className='border border-gray-500 hover:bg-darkBlack hover:text-darkWhite h-12 w-36 text-sm lg:text-sm lg:h-16 lg:w-44'>SEE COLLECTION</button></Link>
+            <Link to='/collection'><button className='border rounded-xl border-gray-500 hover:bg-darkBlack hover:text-darkWhite h-12 w-36 text-xs lg:text-xs lg:h-16 lg:w-44'>SEE COLLECTION</button></Link>
 
           </div>
           
@@ -84,7 +84,7 @@ const Home = () => {
           <p className='lg:text-sm text-sm lg:pr-20 lg:leading-8 leading-6 '>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic porro fugiat dolor ut. Magnam minus, asperiores expedita nemo rerum minima ullam incidunt odit, cum nostrum, eveniet suscipit quis nulla quasi?
           Deserunt incidunt officiis aliquam quo architecto aspernatur, fugit exercitationem molestias non a tempore, ratione laudantium optio maxime corrupti. Eum nihil aliquid quaerat odit quis nam iste repel.</p>
           <div className='self-center lg:self-start'>
-            <Link to='/about'><button className='border border-gray-500 hover:bg-darkBlack hover:text-darkWhite h-12 w-36 text-sm lg:text-sm lg:h-16 lg:w-44'>MORE ABOUT ME</button></Link>
+            <Link to='/about'><button className='border border-gray-500 rounded-lg hover:bg-darkBlack hover:text-darkWhite h-12 w-36 text-xs lg:text-xs lg:h-16 lg:w-44'>MORE ABOUT ME</button></Link>
 
           </div>
           
