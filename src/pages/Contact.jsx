@@ -12,31 +12,11 @@ import 'aos/dist/aos.css';
 const Contact = () => {
   useEffect(() => {
     AOS.init({ duration: 2000, once: true });
+    window.scrollTo(0,0);
     
 }, [])
 
   return (
-    // <div className="flex flex-col justify-center text-center items-center pt-40">
-    //   <div className="border-t-2 w-4/5 pb-7"></div>
-    //   <div className="pb-7 text-gray-500"> 
-    //     <p className="montserrat pb-6 text-black tracking-widerr">CONTACTS</p>
-    //     <p className="text-sm">ayomideolamide@yahoo.com</p>
-    //     <p className="text-sm">info@ayomideola.com</p>
-    //     <div className="pb-6"></div>
-    //     <div className="flex gap-5 justify-center items-center">
-    //       <a href="https://www.instagram.com/ajayiayomideo/instagram.com" target="_blank"><FaInstagram size={25} /></a>
-    //       <a href="https://www.twitter.com" target="_blank"><FaXTwitter size={25} /></a>
-    //       <a href="https://www.tiktok.com"  target="_blank"><FaTiktok size={25} /></a>
-
-    //     </div>
-
-    //   </div>
-    //   <div className="border-t-2 w-4/5"></div>
-
-    //   <div className='pt-24'>
-    //     <Footer />
-    //   </div>
-    // </div>
     <div className='flex flex-col gap-40'>
       <div className='flex pt-10 md:pt-20 justify-center md:flex-row flex-col gap-6 md-gap-0'>
         <div className='w-full md:w-2/5 flex  flex-col gap-2 md:gap-5 px-4 md:px-0 ' data-aos="zoom-out">
