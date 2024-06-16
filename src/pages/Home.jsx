@@ -9,6 +9,7 @@ import aa6 from '../assets/mide6.jpeg';
 import aap from '../assets/mideP.jpeg';
 import Footer from '../components/Footer';
 import SkeletonHome from '../components/SkeletonHome';
+import Header from '../components/Header';
 
 const Home = () => {
   const [loading, setLoading] = useState(true);
@@ -39,10 +40,15 @@ const Home = () => {
   }, []);
 
   return (
-    <div>
+    <div className='relative'>
       {!loading ? (
-        <div className='w-full'>
-          <img src={images[currentImg].src} alt={images[currentImg].text} className='lg:h-screen w-full object-cover h-460 ' />
+        <div className='relative w-full '>
+          <img src={images[currentImg].src} alt={images[currentImg].text} className='lg:h-screen w-full object-cover h-460 opacity-80' />
+          <div className='absolute inset-0 flex items-start top-1/3 justify-center'>
+            <div className='scroll-container'>
+              <div className='scroll-text text-white text-base md:text-xl text-center font-bold'>PHOTOGRAPHY, DIGITAL CREATOR, <br /> FOREX ENTHUSIAST</div>
+            </div>
+          </div>
         </div>
       ) : (
         <div className='h-screen'><SkeletonHome /></div>
@@ -91,6 +97,10 @@ const Home = () => {
         <p className='lg:text-3xl text-base font-medium'>LETS CREATE MAGIC TOGETHER!</p>
         <Link to='/contact'><FaLink size={20} /></Link>
       </section>
+      <div className="absolute z-50 top-0 w-full">
+        <Header logoColor='text-white' color='text-white' />
+
+      </div>
 
       <div className='py-10'>
         <Footer />

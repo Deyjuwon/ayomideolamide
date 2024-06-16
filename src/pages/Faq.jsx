@@ -13,6 +13,8 @@ import {
 import 'react-accessible-accordion/dist/fancy-example.css';
 import { MdOutlineArrowDropDown } from 'react-icons/md';
 import data from '../utils/Accordion';
+import Header from '../components/Header';
+
 
 const Faq = () => {
   useEffect(() => {
@@ -21,6 +23,7 @@ const Faq = () => {
 
   return (
     <div>
+      <Header color='text-gray-400' logoColor='text-black' />
       <div className="relative">
         <img src={aa5} alt="FAQ Banner" className="w-full h-44 lg:h-72 object-cover opacity-30" />
         <p className="text-base md:text-3xl text-gray-500 font-bold absolute inset-0 flex justify-center items-center">FREQUENTLY ASKED QUESTIONS</p>

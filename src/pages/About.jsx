@@ -5,6 +5,7 @@ import Footer from '../components/Footer'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import { useEffect } from 'react'
+import Header from '../components/Header'
 
 
 
@@ -17,7 +18,9 @@ const About = () => {
   }, [])
 
   return (
-    <div className='pt-5 px-5 md:px-4 lg:px-0 flex flex-col gap-10 pb-10' data-aos='fade-up'>
+    <div>
+      <Header color='text-gray-400' logoColor='text-black' />
+      <div className='pt-5 px-5 md:px-4 lg:px-0 flex flex-col gap-10 pb-10' data-aos='fade-up'>
         <div className='flex flex-col md:flex-row justify-center gap-10'>
           <img src={mideImg} alt="" className='object-cover h-400' /> 
           <div className='md:w-2/4 w-full flex flex-col gap-5'>
@@ -45,6 +48,9 @@ const About = () => {
         
       
     </div>
+
+    </div>
+    
   )
 }
 

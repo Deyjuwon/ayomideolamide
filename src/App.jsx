@@ -20,10 +20,7 @@ function App() {
   return (
     <div>
       
-      <div className="">
-        <Header />
-
-      </div>
+      
       
       <Routes>
       <Route path="/" element={<Home />} />
@@ -38,8 +35,10 @@ function App() {
       <Route path="/collection/concert" element={<Concert />} />
       <Route path="/collection/art" element={<Art />} />
       <Route path="/homepage" element={<HomePage />} />
+      
 
      </Routes>
+     
       
     </div>
 

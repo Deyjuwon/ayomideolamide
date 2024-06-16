@@ -13,6 +13,8 @@ import wed from '../assets/weddings.jpeg'
 import sports from '../assets/sports.jpeg'
 import nature from '../assets/nature.jpeg'
 import Skeleton from '../components/Skeleton';
+import Header from '../components/Header';
+Header
 
 export default function Collection() {
   const [loading, setLoading] = useState(true);
@@ -38,6 +40,7 @@ export default function Collection() {
 
   return (
     <div>
+      <Header color='text-gray-400' logoColor='text-black' />
       <div className='grid grid-cols-1 md:grid-cols-3 gap-0 min-h-screen'>
         {!loading ? images.map((image, index) => (
           <Link to={image.link} key={index} className='image-container' data-aos='zoom-in'>
