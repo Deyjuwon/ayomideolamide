@@ -58,14 +58,33 @@ body {
   opacity: 1;
 }
 
+.accordion {
+  border: none;
+  margin-top: 2rem;
+}
+
+.accordionItem {
+  background-color: #fff;
+  border: 0.8px solid rgba(128, 128, 128, 0.143);
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.accordionItem.expanded {
+  box-shadow: var(--shadow);
+  border-radius: 6px;
+}
+
+.accordionButton {
+  background: #fff;
+  justify-content: space-between;
+  padding: 1rem;
+  cursor: pointer;
+  width: 100%;
+}
 
 
-
-  
-
-
-
-
-
-
-
+.accordionButton .primaryText {
+  font-size: 1.1rem;
+}

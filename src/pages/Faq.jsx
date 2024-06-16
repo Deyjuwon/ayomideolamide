@@ -1,11 +1,23 @@
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import aa5 from '../assets/mide5.jpeg';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Footer from '../components/Footer';
+import {
+  Accordion, 
+  AccordionItem,
+  AccordionItemHeading,
+  AccordionItemButton,
+  AccordionItemState,
+  AccordionItemPanel
+} from 'react-accessible-accordion'
+import 'react-accessible-accordion/dist/fancy-example.css'
+import {MdOutlineArrowDropDown} from 'react-icons/md'
+import data from '../utils/Accordion'
 
 const Faq = () => {
-
+  
+  const [className, setClassName] = useState(null)
     useEffect(() => {
         AOS.init({ duration: 2000, once: true });
         
@@ -16,7 +28,7 @@ const Faq = () => {
         <img src={aa5} alt="FAQ Banner" className='w-full h-44 lg:h-72 object-cover opacity-30' />
       <p className='text-base md:text-3xl text-gray-500 font-bold absolute inset-0 flex justify-center items-center'>FREQUENTLY ASKED QUESTIONS</p>
       </div>
-      <div className='py-10 px-4 md:px-10'>
+      <div className='py-10 px-4 md:px-10 hidden md:block'>
         <div className='flex flex-col gap-8'>
           <div className='text-center'>
             <h2 className='text-2xl md:text-4xl font-bold text-gray-700'>FAQs</h2>
@@ -84,6 +96,59 @@ const Faq = () => {
           </div>
         </div>
       </div>
+
+      <div className='md:hidden py-10'>
+        <div className='text-center'>
+          <h2 className='text-2xl md:text-4xl font-bold text-gray-700'>FAQs</h2>
+        </div>
+
+        <Accordion 
+                  className='accordion'
+                  allowMultipleExpanded={false} 
+                  preExpanded={[0]}>
+                      {
+                          data.map((item, i) => {
+                                  
+                              return (
+                                  <AccordionItem 
+                                  className={`accordionItem ${className}`} key={i} uuid={i}
+                                  >
+                                      <AccordionItemHeading>
+                                          <AccordionItemButton className='accordionButton'>
+
+                                          <AccordionItemState>
+                                              {({expanded})=> expanded ? setClassName("expanded") : setClassName("collapsed")}
+                                          </AccordionItemState>
+
+                                              <div className='flex justify-between'>
+                                                <div className="">
+                                                      {item.icon}
+                                                  </div>
+                                                  <span className="text-sm w-1/2 text-center">
+                                                      {item.heading}
+                                                  </span>
+                                                  <div className="">
+                                                      <MdOutlineArrowDropDown size={20} />
+                                                  </div>
+                                              </div>
+                                              
+                                          </AccordionItemButton>
+                                          
+                                      </AccordionItemHeading>
+
+                                      <AccordionItemPanel>
+                                          <p className="text-sm">{item.detail}</p>
+                                      </AccordionItemPanel>
+
+                                  </AccordionItem>
+                              )
+                          } )
+                      }
+                  
+                  </Accordion>
+
+      </div>
+      
       <div className='py-10'>
         <Footer />
 
