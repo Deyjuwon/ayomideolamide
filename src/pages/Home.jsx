@@ -72,7 +72,7 @@ const Home = () => {
 
       <section className='flex flex-col gap-6 lg:flex-row items-center justify-center py-10 bg-gradient-to-b md:bg-gradient-to-r from-white to-yellow1 text-darkBlack'>
         <div className='lg:w-1/2 w-full px-4 flex justify-center items-center'>
-          <img src={aa8} alt="Nature" className='rounded-tr-full w-1/2' data-aos='zoom-in' />
+          <img src={aa8} alt="Nature" className='rounded-full w-1/2' data-aos='zoom-in' />
         </div>
         <div className='lg:w-1/2 w-full flex flex-col gap-5 px-4 md:px-14' data-aos='zoom-in'>
           <p className='lg:text-sm text-sm lg:pr-20 lg:leading-8 leading-6'>
