@@ -41,7 +41,7 @@ const Header = () => {
 
       {isOpened ? (
         <div className='bg-white rounded-full flex items-center justify-center h-11 w-11 md:hidden z-50'>
-          <IoMdClose size={25} onClick={() => setIsOpened(!isOpened)} />
+          <IoMdClose className='fixed' size={25} onClick={() => setIsOpened(!isOpened)} />
         </div>
       ) : (
         <div className='bg-white rounded-full flex items-center justify-center h-11 w-11 md:hidden'>
@@ -50,7 +50,7 @@ const Header = () => {
       )}
 
       {isOpened && (
-        <div className="absolute top-0 left-0 w-full h-full bg-white z-40 flex flex-col items-center pt-20 md:hidden">
+        <div className="fixed top-0 left-0 w-full h-full bg-white z-40 flex flex-col items-center pt-20 md:hidden">
           <ul className="text-gray-400 font-medium flex flex-col gap-5">
             <li><Link to="/collection" className="hover:text-gray-700 transition duration-200" onClick={handleNavLinkClick}>COLLECTION</Link></li>
             <li><Link to="/about" className="hover:text-gray-700 transition duration-200" onClick={handleNavLinkClick}>ABOUT</Link></li>
