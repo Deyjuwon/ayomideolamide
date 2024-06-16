@@ -42,7 +42,7 @@ const Home = () => {
     <div>
       {!loading ? (
         <div className='w-full'>
-          <img src={images[currentImg].src} alt={images[currentImg].text} className='lg:h-screen w-full object-cover h-96' />
+          <img src={images[currentImg].src} alt={images[currentImg].text} className='lg:h-screen w-full object-cover h-460 ' />
         </div>
       ) : (
         <div className='h-screen'><SkeletonHome /></div>
