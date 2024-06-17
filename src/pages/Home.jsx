@@ -46,7 +46,7 @@ const Home = () => {
           <img src={images[currentImg].src} alt={images[currentImg].text} className='lg:h-screen w-full object-cover opacity-80 h-screen' />
           <div className='absolute inset-0 flex items-start top-1/3 justify-center'>
             <div className='scroll-container'>
-              <div className='scroll-text text-white text-base md:text-xl text-center font-bold'>PHOTOGRAPHY, DIGITAL CREATOR, <br /> FOREX ENTHUSIAST</div>
+              <div className='scroll-text  text-white text-base md:text-xl text-center font-bold'>PHOTOGRAPHY, DIGITAL CREATOR, <br /> FOREX ENTHUSIAST</div>
             </div>
           </div>
         </div>

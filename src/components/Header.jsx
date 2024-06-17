@@ -29,7 +29,7 @@ const Header = (props) => {
       </div>
       <div className="flex items-center">
         <nav>
-          <ul className={`text-sm ${props.color} font-medium hidden md:flex gap-20 tracking-tight`}>
+          <ul className={`text-base ${props.color} font-semibold hidden md:flex gap-20 tracking-tight`}>
             <li><Link to='/collection' className="hover:text-gray-700 transition duration-200">COLLECTION</Link></li>
             <li><Link to="/about" className="hover:text-gray-700 transition duration-200">ABOUT</Link></li>
             <li><Link to="/contact" className="hover:text-gray-700 transition duration-200">CONTACT</Link></li>
