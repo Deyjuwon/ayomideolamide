@@ -7,6 +7,7 @@ import aa4 from '../assets/mide4.jpeg';
 import aa8 from '../assets/mide8.jpeg';
 import aa6 from '../assets/mide6.jpeg';
 import aap from '../assets/mideP.jpeg';
+import wed from '../assets/weddings.jpeg'
 import Footer from '../components/Footer';
 import SkeletonHome from '../components/SkeletonHome';
 import Header from '../components/Header';
@@ -17,9 +18,11 @@ const Home = () => {
 
   const images = [
     { src: aa4, text: 'Portrait' },
+    { src: wed, text: 'wedding' },
     { src: aa8, text: 'Nature' },
     { src: aa6, text: 'Wedding' },
     { src: aap, text: 'Art' },
+    { src: wed, text: 'wedding' },
   ];
 
   useEffect(() => {
