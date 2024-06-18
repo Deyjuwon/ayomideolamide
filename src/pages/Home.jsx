@@ -5,8 +5,9 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import aa4 from '../assets/mide4.jpeg';
 import aa8 from '../assets/mide8.jpeg';
-import aa6 from '../assets/mide6.jpeg';
-import aap from '../assets/mideP.jpeg';
+import aa7 from '../assets/011A7682.jpg';
+import aa1 from '../assets/IMG_7240.jpg';
+import aa2 from '../assets/IMG_7255.jpg';
 import wed from '../assets/weddings.jpeg'
 import Footer from '../components/Footer';
 import SkeletonHome from '../components/SkeletonHome';
@@ -17,12 +18,15 @@ const Home = () => {
   const [currentImg, setCurrentImg] = useState(0);
 
   const images = [
+    { src: aa1, text: 'portrait' },
     { src: aa4, text: 'Portrait' },
+    { src: aa7, text: 'interior'},
+    { src: aa2, text: 'Portrait' },
     { src: wed, text: 'wedding' },
-    { src: aa8, text: 'Nature' },
-    { src: aa6, text: 'Wedding' },
-    { src: aap, text: 'Art' },
-    { src: wed, text: 'wedding' },
+    
+    
+
+   
   ];
 
   useEffect(() => {
@@ -58,10 +62,10 @@ const Home = () => {
       )}
 
       <section className='flex flex-col gap-4 lg:flex-row items-center justify-center py-10 bg-gradient-to-b md:bg-gradient-to-r from-white to-yellow1 text-darkBlack'>
-        <div className='lg:w-1/2 w-full px-4' data-aos='fade-right'>
+        <div className='lg:w-1/2 w-full px-4' data-aos='zoom-in'>
           <p className='lg:text-3xl lg:px-16 text-center font-bold'>CAPTURING MOMENTS FOR GENERATIONS TO COME</p>
         </div>
-        <div className='lg:w-1/2 w-full flex flex-col gap-5 px-4 md:px-14' data-aos='fade-left'>
+        <div className='lg:w-1/2 w-full flex flex-col gap-5 px-4 md:px-14' data-aos='zoom-out'>
           <p className='lg:text-sm text-sm lg:pr-20 lg:leading-8 leading-6'>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti vitae similique accusantium velit dolores explicabo quaerat reiciendis fugiat tenetur obcaecati beatae odit aut recusandae quod architecto omnis, sed  impedit.Iste error ducimus voluptates tempora aspernatur asperiores atque ut quaerat accusantium maxime, fugit, obcaecati placeat. Quisquam quidem sunt ipsum non assumenda? Repudiandae quos rerum inventore non obcaecati consequuntur architecto aliquid?Temporibus beatae itaque, possimus velit eaque, maiores nostrum maxime quia assumenda incidunt quae consectetur. Neque error tempora iure vitae nulla consequuntur aperiam impedit, exercitationem repellendus, quibusdam possimus labore odit minima?
             Animi nobis beatae esse eligendi officiis cum qui voluptatum et atque saepe maiores doloremque, maxime quo illo omnis amet molestiae possimus dicta minus. Quos, dolorum eum! Eaque aliquam odit in mus velit eaque, maiores nostrum maxime quia assumenda incidunt quae consectetur. Neque error tempora iure vitae nulla consequuntur aperiam impedit.

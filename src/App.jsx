@@ -13,6 +13,7 @@ import Portraits from './pages/Portraits'
 import Art from './pages/Art'
 import HomePage from './pages/HomePage'
 import Faq from './pages/Faq'
+import Testimonials from './pages/Testimonials'
 
 function App() {
 
@@ -27,6 +28,7 @@ function App() {
       <Route path="/about" element={<About />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="/collection" element={<Collection />} />
+      <Route path="/testimonials" element={<Testimonials />} />
       <Route path="/faq" element={<Faq />} />
       <Route path="/collection/portraits" element={<Portraits />} />
       <Route path="/collection/weddings" element={<Weddings />} />

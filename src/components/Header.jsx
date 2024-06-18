@@ -30,11 +30,11 @@ const Header = (props) => {
       <div className="flex items-center">
         <nav>
           <ul className={`text-base ${props.color} font-semibold hidden md:flex gap-20 tracking-tight`}>
-            <li><Link to='/collection' className="hover:text-gray-700 transition duration-200">COLLECTION</Link></li>
-            <li><Link to="/about" className="hover:text-gray-700 transition duration-200">ABOUT</Link></li>
-            <li><Link to="/contact" className="hover:text-gray-700 transition duration-200">CONTACT</Link></li>
-            <li><Link to="/testimonials" className="hover:text-gray-700 transition duration-200">TESTIMONIAL</Link></li>
-            <li><Link to="/faq" className="hover:text-gray-700 transition duration-200">FAQs</Link></li>
+            <li><Link to='/collection' className=" transition duration-200">COLLECTION</Link></li>
+            <li><Link to="/about" className=" transition duration-200">ABOUT</Link></li>
+            <li><Link to="/contact" className=" transition duration-200">CONTACT</Link></li>
+            <li><Link to="/testimonials" className=" transition duration-200">TESTIMONIAL</Link></li>
+            <li><Link to="/faq" className=" transition duration-200">FAQs</Link></li>
           </ul>
         </nav>
       </div>
@@ -53,11 +53,11 @@ const Header = (props) => {
       {isOpened && (
         <div className="fixed top-0 left-0 w-full h-full bg-white z-40 flex flex-col items-center pt-20 md:hidden">
           <ul className="text-gray-400 font-medium flex flex-col gap-5">
-            <li><Link to="/collection" className="hover:text-gray-700 transition duration-200" onClick={handleNavLinkClick}>COLLECTION</Link></li>
-            <li><Link to="/about" className="hover:text-gray-700 transition duration-200" onClick={handleNavLinkClick}>ABOUT</Link></li>
-            <li><Link to="/contact" className="hover:text-gray-700 transition duration-200" onClick={handleNavLinkClick}>CONTACT</Link></li>
-            <li><Link to="/testimonials" className="hover:text-gray-700 transition duration-200" onClick={handleNavLinkClick}>TESTIMONIAL</Link></li>
-            <li><Link to="/faq" className="hover:text-gray-700 transition duration-200" onClick={handleNavLinkClick}>FAQ</Link></li>
+            <li><Link to="/collection" className=" transition duration-200" onClick={handleNavLinkClick}>COLLECTION</Link></li>
+            <li><Link to="/about" className=" transition duration-200" onClick={handleNavLinkClick}>ABOUT</Link></li>
+            <li><Link to="/contact" className=" transition duration-200" onClick={handleNavLinkClick}>CONTACT</Link></li>
+            <li><Link to="/testimonials" className=" transition duration-200" onClick={handleNavLinkClick}>TESTIMONIAL</Link></li>
+            <li><Link to="/faq" className=" transition duration-200" onClick={handleNavLinkClick}>FAQ</Link></li>
           </ul>
         </div>
       )}
