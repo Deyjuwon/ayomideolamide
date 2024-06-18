@@ -23,10 +23,6 @@ const Home = () => {
     { src: aa7, text: 'interior'},
     { src: aa2, text: 'Portrait' },
     { src: wed, text: 'wedding' },
-    
-    
-
-   
   ];
 
   useEffect(() => {
