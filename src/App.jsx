@@ -34,7 +34,7 @@ function App() {
       <Route path="/collection/nature" element={<Nature />} />
       <Route path="/collection/concert" element={<Concert />} />
       <Route path="/collection/art" element={<Art />} />
-      <Route path="/homepage" element={<HomePage />} />
+ 
       
 
      </Routes>
