@@ -32,12 +32,12 @@ const Header = (props) => {
       
 
       {isOpened ? (
-        <div className='bg-white rounded-full flex items-center justify-center h-11 w-11 md:hidden z-50'>
-          <IoMdClose className='fixed' size={25} onClick={() => setIsOpened(!isOpened)} />
+        <div className='] flex items-center justify-center h-11 w-11 md:hidden z-50'>
+          <IoMdClose className='fixed' size={20} onClick={() => setIsOpened(!isOpened)} />
         </div>
       ) : (
-        <div className='bg-white rounded-full flex items-center justify-center h-11 w-11 md:hidden'>
-          <RxHamburgerMenu size={25} onClick={() => setIsOpened(!isOpened)} />
+        <div className=' flex items-center justify-center h-11 w-11 md:hidden'>
+          <RxHamburgerMenu size={20} color='white' onClick={() => setIsOpened(!isOpened)} />
         </div>
       )}
 
