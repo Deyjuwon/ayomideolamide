@@ -3,22 +3,13 @@ import { Link } from 'react-router-dom';
 import { RxHamburgerMenu } from "react-icons/rx";
 import { IoMdClose } from "react-icons/io";
 import { useState } from "react";
-// import { RiArrowDropDownLine } from "react-icons/ri";
 
 
 const Header = (props) => {
   const [isOpened, setIsOpened] = useState(false);
-  // const [isDropdownOpen, setIsDropdownOpen] = useState(false);
-
-  // const toggleDropdown = () => {
-  //   setIsDropdownOpen(!isDropdownOpen);
-  // };
   const handleNavLinkClick = () => {
     setIsOpened(false);
   };
-
-  
-
 
   return (
     <div className="flex  flex-row md:flex-col lg:gap-8 md:gap-4 items-center justify-between px-5 md:justify-around py-4 md:py-6 ">
@@ -29,7 +20,7 @@ const Header = (props) => {
       </div>
       <div className="flex items-center">
         <nav>
-          <ul className={`text-base ${props.color} font-semibold hidden md:flex gap-20 tracking-tight`}>
+          <ul className={`text-base ${props.color} font-medium hidden md:flex gap-20 tracking-tight`}>
             <li><Link to='/collection' className=" transition duration-200">COLLECTION</Link></li>
             <li><Link to="/about" className=" transition duration-200">ABOUT</Link></li>
             <li><Link to="/contact" className=" transition duration-200">CONTACT</Link></li>

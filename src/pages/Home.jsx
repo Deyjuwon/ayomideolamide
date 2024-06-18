@@ -50,7 +50,7 @@ const Home = () => {
     <div className='relative'>
       {!loading ? (
         <div className='relative w-full h-screen'>
-          <img src={images[currentImg].src} alt={images[currentImg].text} className='lg:h-screen w-full object-cover opacity-80 h-screen' />
+          <img src={images[currentImg].src} alt={images[currentImg].text} className='lg:h-screen w-full object-cover  h-screen' />
           <div className='absolute inset-0 flex items-start top-1/3 justify-center'>
             <div className='scroll-container'>
               <div className='scroll-text  text-white text-base md:text-xl text-center font-bold'>PHOTOGRAPHY, DIGITAL CREATOR, <br /> FOREX ENTHUSIAST</div>
@@ -65,7 +65,7 @@ const Home = () => {
         <div className='lg:w-1/2 w-full px-4' data-aos='zoom-in'>
           <p className='lg:text-3xl lg:px-16 text-center font-bold'>CAPTURING MOMENTS FOR GENERATIONS TO COME</p>
         </div>
-        <div className='lg:w-1/2 w-full flex flex-col gap-5 px-4 md:px-14' data-aos='zoom-out'>
+        <div className='lg:w-1/2 w-full flex flex-col gap-5 px-4 md:px-14' data-aos='fade-up'>
           <p className='lg:text-sm text-sm lg:pr-20 lg:leading-8 leading-6'>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti vitae similique accusantium velit dolores explicabo quaerat reiciendis fugiat tenetur obcaecati beatae odit aut recusandae quod architecto omnis, sed  impedit.Iste error ducimus voluptates tempora aspernatur asperiores atque ut quaerat accusantium maxime, fugit, obcaecati placeat. Quisquam quidem sunt ipsum non assumenda? Repudiandae quos rerum inventore non obcaecati consequuntur architecto aliquid?Temporibus beatae itaque, possimus velit eaque, maiores nostrum maxime quia assumenda incidunt quae consectetur. Neque error tempora iure vitae nulla consequuntur aperiam impedit, exercitationem repellendus, quibusdam possimus labore odit minima?
             Animi nobis beatae esse eligendi officiis cum qui voluptatum et atque saepe maiores doloremque, maxime quo illo omnis amet molestiae possimus dicta minus. Quos, dolorum eum! Eaque aliquam odit in mus velit eaque, maiores nostrum maxime quia assumenda incidunt quae consectetur. Neque error tempora iure vitae nulla consequuntur aperiam impedit.
