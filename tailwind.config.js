@@ -15,6 +15,8 @@ export default {
         'brown1': '#DDB8A6',
         'brown2': '#D49B7E',
         'yellow1': '#F5F5DC',
+        'darkPurple': '#170E13',
+        'lightPurple': '#7A7ADB'
       },
       letterSpacing: {
         tightest: '-.075em',
@@ -39,7 +41,14 @@ export default {
         '460':  '460px',
         '520': '520px',
         '470': '470px',
-        '700': '700px'
+        '700': '700px',
+        '72': '18rem',   // Default Tailwind size
+        '80': '20rem',   // Default Tailwind size
+        '96': '24rem',   // Default Tailwind size
+        '104': '26rem',  // Custom size
+        '112': '28rem',  // Custom size
+        '120': '30rem',  // Custom size
+        '144': '36rem',
       },
       width: {
         '420': '420px',

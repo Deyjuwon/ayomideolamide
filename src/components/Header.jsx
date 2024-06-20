@@ -20,7 +20,7 @@ const Header = (props) => {
       </div>
       <div className="flex items-center">
         <nav>
-          <ul className={`text-base ${props.color} font-medium hidden md:flex gap-20 tracking-tight`}>
+          <ul className={`text-sm ${props.color} font-medium hidden md:flex gap-20 tracking-tight`}>
             <li><Link to='/collection' className=" transition duration-200">COLLECTION</Link></li>
             <li><Link to="/about" className=" transition duration-200">ABOUT</Link></li>
             <li><Link to="/contact" className=" transition duration-200">CONTACT</Link></li>
@@ -37,7 +37,7 @@ const Header = (props) => {
         </div>
       ) : (
         <div className=' flex items-center justify-center h-11 w-11 md:hidden'>
-          <RxHamburgerMenu size={20} color='white' onClick={() => setIsOpened(!isOpened)} />
+          <RxHamburgerMenu size={20} color={props.hamColor} onClick={() => setIsOpened(!isOpened)} />
         </div>
       )}
 

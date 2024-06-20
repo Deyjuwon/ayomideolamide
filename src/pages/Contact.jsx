@@ -1,7 +1,7 @@
 import { useEffect } from'react'
 import { FaInstagram } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
-import { FaTiktok } from "react-icons/fa";
+import { FaTelegramPlane } from "react-icons/fa";
 import Footer from "../components/Footer";
 import { GoArrowDownRight } from "react-icons/go";
 import AOS from 'aos';
@@ -40,8 +40,8 @@ const Contact = () => {
               <p className='text-gray-500 font-semibold text-sm md:text-sm '>Follow me:</p>
               <div className='flex gap-4'>
                 <a href="https://www.instagram.com/ajayiayomideo/instagram.com" target="_blank"><FaInstagram size={20} /></a>
-                <a href="https://www.twitter.com" target="_blank"><FaXTwitter size={18} /></a>
-                <a href="https://www.tiktok.com"  target="_blank"><FaTiktok size={18} /></a>
+                <a href="https://x.com/ajayiayomideo" target="_blank"><FaXTwitter size={20} /></a>
+                <a href="https://www.telegram.com"  target="_blank"><FaTelegramPlane size={20} /></a>
 
               </div>
               

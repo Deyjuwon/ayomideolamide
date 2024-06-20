@@ -101,7 +101,7 @@ const Home = () => {
         <Link to='/contact'><FaLink size={20} /></Link>
       </section>
       <div className="absolute z-50 top-0 w-full">
-        <Header logoColor='text-white' color='text-white' />
+        <Header logoColor='text-white' color='text-white' hamColor='white' />
 
       </div>
 
