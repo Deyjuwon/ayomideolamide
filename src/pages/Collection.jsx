@@ -1,20 +1,16 @@
 import { Link } from 'react-router-dom';
 import { useEffect, useState } from 'react';
-// import { FaInstagram, FaTiktok } from "react-icons/fa";
-// import { FaXTwitter } from "react-icons/fa6";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Footer from '../components/Footer';
-
 import aa4 from '../assets/mide4.jpeg';
-import concert from '../assets/concert.jpeg'
 import art from '../assets/art.jpg'
 import wed from '../assets/weddings.jpeg'
 import sports from '../assets/sports.jpeg'
 import nature from '../assets/nature.jpeg'
 import Skeleton from '../components/Skeleton';
 import Header from '../components/Header';
-Header
+import birthday from '../assets/DSC05545.jpg'
 
 export default function Collection() {
   const [loading, setLoading] = useState(true);
@@ -31,11 +27,12 @@ export default function Collection() {
 
   const images = [
     { src: aa4, text: 'Portrait', link: '/collection/portraits' },
+    { src: birthday, text: 'birthday', link: '/collection/birthdays' },
     { src: nature, text: 'Nature', link: '/collection/nature' },
     { src: wed, text: 'Wedding', link: '/collection/weddings' },
     { src: art, text: 'Art', link: '/collection/art' },
     { src: sports, text: 'Sports', link: '/collection/sports' },
-    { src: concert, text: 'Concerts', link: '/collection/concert' }
+    
   ];
 
   return (
@@ -43,9 +40,9 @@ export default function Collection() {
       <Header color='text-gray-400' logoColor='text-black' />
       <div className='grid grid-cols-1 md:grid-cols-3 gap-0 min-h-screen'>
         {!loading ? images.map((image, index) => (
-          <Link to={image.link} key={index} className='image-container' data-aos='zoom-in'>
+          <Link to={image.link} key={index} className='image-container ' data-aos='zoom-in'>
             <img src={image.src} alt={`${image.text} photography`} />
-            <div className='overlay text-base'>
+            <div className='overlay  text-base'>
               {image.text}
             </div>
           </Link>

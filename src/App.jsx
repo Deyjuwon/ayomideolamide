@@ -12,6 +12,7 @@ import Portraits from './pages/Portraits'
 import Art from './pages/Art'
 import Faq from './pages/Faq'
 import Testimonials from './pages/Testimonials'
+import Birthdays from './pages/Birthdays'
 
 function App() {
 
@@ -34,6 +35,7 @@ function App() {
       <Route path="/collection/nature" element={<Nature />} />
       <Route path="/collection/concert" element={<Concert />} />
       <Route path="/collection/art" element={<Art />} />
+      <Route path="/collection/birthdays" element={<Birthdays />} />
  
       
 
