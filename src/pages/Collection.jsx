@@ -10,7 +10,8 @@ import sports from '../assets/sports.jpeg'
 import nature from '../assets/nature.jpeg'
 import Skeleton from '../components/Skeleton';
 import Header from '../components/Header';
-import birthday from '../assets/DSC05545.jpg'
+
+import birthday from '../assets/DrNike45/DSC05545.jpg'
 
 export default function Collection() {
   const [loading, setLoading] = useState(true);
