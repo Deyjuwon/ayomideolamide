@@ -6,7 +6,10 @@ import data from '../utils/BirthdayImgs'
 const Birthdays = () => {
   return (
     <div>
-        <Header color='text-gray-400' />
+        <div className='heading'>
+            <Header color='text-gray-400' />
+        </div>
+        
         <div className='grid grid-col-2 md:grid-cols-3 gap-4'>
         {
             data.map((item, idx) => {
