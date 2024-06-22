@@ -14,13 +14,13 @@ const Header = (props) => {
   return (
     <div className="flex  flex-row md:flex-col lg:gap-8 md:gap-4 items-center justify-between px-5 md:justify-around py-4 md:py-6 ">
       <div>
-        <p className={`text-sm md:text-xl  tracking-wider md:tracking-widestt ${props.logoColor} font-bold logo`}>
+        <p className={`text-sm md:text-base lg:text-lg  tracking-wider md:tracking-widestt ${props.logoColor} font-bold logo`}>
           <Link to='/'>AYOMIDE OLAMIDE</Link>
         </p>
       </div>
       <div className="flex items-center">
         <nav>
-          <ul className={`text-sm ${props.color} font-medium hidden md:flex gap-20 tracking-tight`}>
+          <ul className={`text-xs ${props.color} font-medium hidden md:flex gap-20 tracking-tight`}>
             <li><Link to='/collection' className=" transition duration-200">COLLECTION</Link></li>
             <li><Link to="/about" className=" transition duration-200">ABOUT</Link></li>
             <li><Link to="/contact" className=" transition duration-200">CONTACT</Link></li>

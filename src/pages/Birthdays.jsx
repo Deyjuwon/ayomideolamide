@@ -10,7 +10,7 @@ const Birthdays = () => {
             <Header color='text-gray-400' />
         </div>
         
-        <div className='grid grid-col-2 md:grid-cols-3 gap-4'>
+        <div className='grid grid-cols-2 md:grid-cols-3 gap-4 px-4'>
         {
             data.map((item, idx) => {
                 return (
