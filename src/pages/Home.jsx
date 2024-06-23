@@ -6,7 +6,7 @@ import 'aos/dist/aos.css';
 import aa4 from '../assets/mide4.webp';
 import aa3 from '../assets/mide7.webp';
 
-import aa7 from '../assets/011A7682.webp';
+import aa7 from '../assets/interior.jpg';
 import aa1 from '../assets/IMG_7240.webp';
  
 import aa2 from '../assets/IMG_7255.webp';
