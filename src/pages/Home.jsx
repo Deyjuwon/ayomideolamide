@@ -3,11 +3,13 @@ import { Link } from 'react-router-dom';
 import { FaLink } from "react-icons/fa6";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import aa4 from '../assets/mide4.jpeg';
-import aa8 from '../assets/mide8.jpeg';
-import aa7 from '../assets/011A7682.jpg';
-import aa1 from '../assets/IMG_7240.jpg';
-import aa2 from '../assets/IMG_7255.jpg';
+import aa4 from '../assets/mide4.webp';
+import aa3 from '../assets/mide7.webp';
+
+import aa7 from '../assets/011A7682.webp';
+import aa1 from '../assets/IMG_7240.webp';
+ 
+import aa2 from '../assets/IMG_7255.webp';
 import wed from '../assets/weddings.jpeg'
 import Footer from '../components/Footer';
 import SkeletonHome from '../components/SkeletonHome';
@@ -81,7 +83,7 @@ const Home = () => {
 
       <section className='flex flex-col gap-6 lg:flex-row items-center justify-center py-10 bg-gradient-to-b md:bg-gradient-to-r from-white to-yellow1 text-darkBlack'>
         <div className='lg:w-1/2 w-full px-4 flex justify-center items-center'>
-          <img src={aa8} alt="Nature" className='rounded-full w-1/2' data-aos='zoom-in' />
+          <img src={aa3} alt="Nature" className='rounded-full w-1/2' data-aos='zoom-in' />
         </div>
         <div className='lg:w-1/2 w-full flex flex-col gap-5 px-4 md:px-14' data-aos='zoom-in'>
           <p className='lg:text-sm text-sm lg:pr-20 lg:leading-8 leading-6'>

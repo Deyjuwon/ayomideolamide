@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import aa5 from '../assets/mide5.jpeg';
+import aa5 from '../assets/mide5.webp';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Footer from '../components/Footer';

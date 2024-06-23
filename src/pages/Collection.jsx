@@ -3,14 +3,14 @@ import { useEffect, useState } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Footer from '../components/Footer';
-import aa4 from '../assets/mide4.jpeg';
-import art from '../assets/art.jpg'
+import aa4 from '../assets/mide4.webp';
+import art from '../assets/art.webp'
 import wed from '../assets/weddings.jpeg'
 import sports from '../assets/sports.jpeg'
-import nature from '../assets/nature.jpeg'
+import nature from '../assets/nature.webp'
 import Skeleton from '../components/Skeleton';
 import Header from '../components/Header';
-import birthday from '../assets/DrNike45/DSC05545.jpg'
+import birthday from '../assets/DSC05545.webp';
 
 export default function Collection() {
   const [loading, setLoading] = useState(true);
