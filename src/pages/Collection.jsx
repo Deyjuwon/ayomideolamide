@@ -10,7 +10,7 @@ import sports from '../assets/sports.jpeg'
 import nature from '../assets/nature.webp'
 import Skeleton from '../components/Skeleton';
 import Header from '../components/Header';
-import birthday from '../assets/DSC05545.webp';
+import birthday from '../assets/DSC05545_Op.webp';
 
 export default function Collection() {
   const [loading, setLoading] = useState(true);
