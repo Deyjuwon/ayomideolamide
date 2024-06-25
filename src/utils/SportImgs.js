@@ -1,3 +1,6 @@
+import sossa1 from '../assets/sossa/Untitled-2245.jpg';
+import sossa2 from '../assets/sossa/Untitled-2246.jpg';
+import sossa3 from '../assets/sossa/Untitled-2248.jpg';
 import sossa4 from '../assets/sossa/Untitled-2252.jpg';
 import sossa5 from '../assets/sossa/Untitled-2253.jpg';
 import sossa6 from '../assets/sossa/Untitled-2254.jpg';
