@@ -167,7 +167,7 @@ hero text scrolling */
 }
 
 /* In your CSS file */
-.grid {
+/* .grid {
   display: grid;
   gap: 2px;
 }
@@ -186,4 +186,4 @@ hero text scrolling */
   width: 100%;
   height: 100%;
   object-fit: cover;
-}
+} */
