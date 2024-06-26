@@ -23,12 +23,13 @@ import b2b12 from '../assets/back2base/DSC01243.webp';
 import b2b13 from '../assets/back2base/DSC01254.webp';
 
 const SportImgs = [
+    
     {
-      imgUrl: sossa1,
+      imgUrl: sossa2,
       text: "sossa sports week",
     },
     {
-      imgUrl: sossa2,
+      imgUrl: sossa1,
       text: "sossa sports week",
     },
     {

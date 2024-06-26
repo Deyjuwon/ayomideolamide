@@ -34,9 +34,105 @@ import ademola14 from '../assets/ademola/DSC07047.webp';
 import ademola15 from '../assets/ademola/DSC07114.webp';
 import ademola16 from '../assets/ademola/DSC07128.webp';
 import ademola17 from '../assets/ademola/DSC07149.webp';
+import ade1 from '../assets/ade50th/50THbirthday-19.webp';
+import ade2 from '../assets/ade50th/50THbirthday-130.webp';
+import ade3 from '../assets/ade50th/50THbirthday-132.webp';
+import ade4 from '../assets/ade50th/50THbirthday-166.webp';
+import ade5 from '../assets/ade50th/50THbirthday-168.webp';
+import ade6 from '../assets/ade50th/50THbirthday-198.webp';
+import ade7 from '../assets/ade50th/50THbirthday-225.webp';
+import ade8 from '../assets/ade50th/50THbirthday-321.webp';
+import ade9 from '../assets/ade50th/50THbirthday-322.webp';
+import ade10 from '../assets/ade50th/50THbirthday-323.webp';
+import ade11 from '../assets/ade50th/50THbirthday-349.webp';
+import ade12 from '../assets/ade50th/50THbirthday-350.webp';
+import ade13 from '../assets/ade50th/50THbirthday-382.webp';
+import ade14 from '../assets/ade50th/50THbirthday-383.webp';
+import ade15 from '../assets/ade50th/50THbirthday-398.webp';
+import ade16 from '../assets/ade50th/IMG_2803.webp';
+import img1 from '../assets/mrsajayi/Untitled-2180.webp';
+import img2 from '../assets/mrsajayi/Untitled-2181.webp';
+import img3 from '../assets/mrsajayi/Untitled-2191.webp';
+import img4 from '../assets/mrsajayi/Untitled-2192.webp';
+import img5 from '../assets/mrsajayi/Untitled-2194.webp';
+import img6 from '../assets/mrsajayi/Untitled-2196.webp';
+import img7 from '../assets/mrsajayi/Untitled-2197.webp';
+import img8 from '../assets/mrsajayi/Untitled-2198.webp';
+import img9 from '../assets/mrsajayi/Untitled-2206.webp';
+import img10 from '../assets/mrsajayi/Untitled-2208.webp';
+import img11 from '../assets/mrsajayi/Untitled-2228.webp';
+import img12 from '../assets/mrsajayi/Untitled-2242.webp';
+import img13 from '../assets/mrsajayi/Untitled-2243.webp';
+import img14 from '../assets/mrsajayi/Untitled-2244.webp';
+
+
 
 
 const BirthdayImgs = [
+      {
+        imgUrl: ade1,
+        text: "ade50th birthday pictures",
+    },
+    {
+        imgUrl: ade2,
+        text: "ade50th birthday pictures",
+    },
+    {
+        imgUrl: ade3,
+        text: "ade50th birthday pictures",
+    },
+    {
+        imgUrl: ade4,
+        text: "ade50th birthday pictures",
+    },
+    {
+        imgUrl: ade5,
+        text: "ade50th birthday pictures",
+    },
+    {
+        imgUrl: ade6,
+        text: "ade50th birthday pictures",
+    },
+    {
+        imgUrl: ade7,
+        text: "ade50th birthday pictures",
+    },
+    {
+        imgUrl: ade8,
+        text: "ade50th birthday pictures",
+    },
+    {
+        imgUrl: ade9,
+        text: "ade50th birthday pictures",
+    },
+    {
+        imgUrl: ade10,
+        text: "ade50th birthday pictures",
+    },
+    {
+        imgUrl: ade11,
+        text: "ade50th birthday pictures",
+    },
+    {
+        imgUrl: ade12,
+        text: "ade50th birthday pictures",
+    },
+    {
+        imgUrl: ade13,
+        text: "ade50th birthday pictures",
+    },
+    {
+        imgUrl: ade14,
+        text: "ade50th birthday pictures",
+    },
+    {
+        imgUrl: ade15,
+        text: "ade50th birthday pictures",
+    },
+    {
+        imgUrl: ade16,
+        text: "ade50th birthday pictures",
+    },
     {
         imgUrl: DrN1,
         text: "DR NIKE'S BIRTHDAY IMAGE",
@@ -183,6 +279,20 @@ const BirthdayImgs = [
         imgUrl: ademola17,
         text: "Mr. Ademola birthday party",
       },
-]
+      { imgUrl: img1, text: "mrs ajayi birthday pictures" },
+      { imgUrl: img2, text: "mrs ajayi birthday pictures" },
+      { imgUrl: img3, text: "mrs ajayi birthday pictures" },
+      { imgUrl: img4, text: "mrs ajayi birthday pictures" },
+      { imgUrl: img5, text: "mrs ajayi birthday pictures" },
+      { imgUrl: img6, text: "mrs ajayi birthday pictures" },
+      { imgUrl: img7, text: "mrs ajayi birthday pictures" },
+      { imgUrl: img8, text: "mrs ajayi birthday pictures" },
+      { imgUrl: img9, text: "mrs ajayi birthday pictures" },
+      { imgUrl: img10, text: "mrs ajayi birthday pictures" },
+      { imgUrl: img11, text: "mrs ajayi birthday pictures" },
+      { imgUrl: img12, text: "mrs ajayi birthday pictures" },
+      { imgUrl: img13, text: "mrs ajayi birthday pictures" },
+      { imgUrl: img14, text: "mrs ajayi birthday pictures" }
+    ]
 
 export default BirthdayImgs;

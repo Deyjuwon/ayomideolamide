@@ -9,6 +9,8 @@ import aa7 from '../assets/interior.jpg';
 import aa1 from '../assets/IMG_7240.webp';
 import aa5 from '../assets/DSC00479.jpg';
 import aa2 from '../assets/IMG_7255.webp';
+import aa6 from '../assets/50THbirthday-199.webp';
+import aa8 from '../assets/DSC05490.webp'
 import wed from '../assets/weddings.jpeg'
 import Footer from '../components/Footer';
 import SkeletonHome from '../components/SkeletonHome';
@@ -23,10 +25,13 @@ const Home = () => {
     { src: aa1, text: 'portrait' },
     { src: aa5, text: 'Portrait' },
     { src: aa4, text: 'Portrait' },
+    { src: aa6, text: 'Portrait' },
+    
     
     { src: aa7, text: 'interior'},
     { src: aa2, text: 'Portrait' },
     { src: wed, text: 'wedding' },
+    { src: aa8, text: 'Portrait' },
   ];
 
   useEffect(() => {
