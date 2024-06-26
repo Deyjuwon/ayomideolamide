@@ -42,11 +42,15 @@ const Interior = () => {
         contentLabel="Selected Image"
         style={{
           content: {
-            width:"70%",
+            width:"80%",
             padding: '0',
             border: 'none',
             background: 'none',
             margin: 'auto',
+            height: 'screen',
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
           
 
           },
