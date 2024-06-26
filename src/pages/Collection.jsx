@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Footer from '../components/Footer';
-import aa4 from '../assets/mide4.webp';
+import aa4 from '../assets/IMG_7256.jpg';
 import art from '../assets/art.webp'
 // import wed from '../assets/weddings.jpeg'
 import sports from '../assets/sports.jpeg'
