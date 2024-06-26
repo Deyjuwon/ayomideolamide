@@ -187,3 +187,22 @@ hero text scrolling */
   height: 100%;
   object-fit: cover;
 } */
+
+/* .ReactModal__Overlay {
+  background-color: rgba(0, 0, 0, 0.75);
+}
+.ReactModal__Content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  right: auto;
+  bottom: auto;
+  transform: translate(-50%, -50%);
+  max-width: 90%;
+  max-height: 90%;
+  padding: 0;
+  border: none;
+  background: none;
+  overflow: hidden;
+}
+ */

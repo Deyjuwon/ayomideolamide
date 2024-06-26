@@ -20,6 +20,21 @@ import DrN8 from '../assets/DrNike45/DSC05597.webp';
 import DrN9 from '../assets/DrNike45/DSC06389.webp';
 import DrN10 from '../assets/DrNike45/DSC06399.webp';
 import DrN11 from '../assets/DrNike45/DSC06836.webp';
+import ademola1 from '../assets/ademola/DSC05838.webp';
+import ademola2 from '../assets/ademola/DSC05858.webp';
+import ademola6 from '../assets/ademola/DSC06235.webp';
+import ademola7 from '../assets/ademola/DSC06401.webp';
+import ademola8 from '../assets/ademola/DSC06541.webp';
+import ademola9 from '../assets/ademola/DSC06573.webp';
+import ademola10 from '../assets/ademola/DSC06902.webp';
+import ademola11 from '../assets/ademola/DSC06942.webp';
+import ademola12 from '../assets/ademola/DSC07034.webp';
+import ademola13 from '../assets/ademola/DSC07042.webp';
+import ademola14 from '../assets/ademola/DSC07047.webp';
+import ademola15 from '../assets/ademola/DSC07114.webp';
+import ademola16 from '../assets/ademola/DSC07128.webp';
+import ademola17 from '../assets/ademola/DSC07149.webp';
+
 
 const BirthdayImgs = [
     {
@@ -110,7 +125,64 @@ const BirthdayImgs = [
       {
         imgUrl: joy14,
         text: "joy 30th birthday",
-      }
+      },
+      {
+        imgUrl: ademola1,
+        text: "Mr. Ademola birthday party",
+      },
+      {
+        imgUrl: ademola2,
+        text: "Mr. Ademola birthday party",
+      },
+    
+      {
+        imgUrl: ademola6,
+        text: "Mr. Ademola birthday party",
+      },
+      {
+        imgUrl: ademola7,
+        text: "Mr. Ademola birthday party",
+      },
+      {
+        imgUrl: ademola8,
+        text: "Mr. Ademola birthday party",
+      },
+      {
+        imgUrl: ademola9,
+        text: "Mr. Ademola birthday party",
+      },
+      {
+        imgUrl: ademola10,
+        text: "Mr. Ademola birthday party",
+      },
+      {
+        imgUrl: ademola11,
+        text: "Mr. Ademola birthday party",
+      },
+      {
+        imgUrl: ademola12,
+        text: "Mr. Ademola birthday party",
+      },
+      {
+        imgUrl: ademola13,
+        text: "Mr. Ademola birthday party",
+      },
+      {
+        imgUrl: ademola14,
+        text: "Mr. Ademola birthday party",
+      },
+      {
+        imgUrl: ademola15,
+        text: "Mr. Ademola birthday party",
+      },
+      {
+        imgUrl: ademola16,
+        text: "Mr. Ademola birthday party",
+      },
+      {
+        imgUrl: ademola17,
+        text: "Mr. Ademola birthday party",
+      },
 ]
 
 export default BirthdayImgs;

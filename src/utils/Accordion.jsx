@@ -33,7 +33,7 @@ const data = [
   },
   {
     icon: <MdCancel />,
-    heading: "WHAT HAPPENS IF IT RAINS ON OUR WEDDING DAY?",
+    heading: "WHAT HAPPENS IF IT RAINS ON THE DAY OF OUR EVENT",
     detail:
       "Rain or shine, your wedding day is a celebration of your love. Trust us, the rain won't ruin your special day - some of our best wedding shoots have occurred on rainy days. We know lots of wonderful locations that are perfect for wedding pictures in any type of weather condition..",
   },
