@@ -18,6 +18,7 @@ import portrait17 from '../assets/portraits/IMG_7252.jpg';
 import portrait18 from '../assets/portraits/IMG_7256.jpg';
 import portrait19 from '../assets/portraits/shalom2.jpg';
 import portrait20 from '../assets/portraits/tobifianl3.jpg';
+import portrait21 from '../assets/portraits/ITUNU5.webp';
 
 
 const PortraitImgs = [
@@ -51,6 +52,11 @@ const PortraitImgs = [
       imgUrl: portrait9,
       text: "portrait image",
     },
+    {
+      imgUrl: portrait21,
+      text: "portrait image",
+    },
+    
     {
       imgUrl: portrait10,
       text: "portrait image",

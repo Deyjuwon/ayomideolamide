@@ -12,10 +12,8 @@ import joy11 from '../assets/joy30/AOS09973.jpg';
 import joy12 from '../assets/joy30/AOS09980.jpg';
 import joy13 from '../assets/joy30/AOS09992.jpg';
 import joy14 from '../assets/joy30/AOS09999.jpg';
-
 import DrN1 from '../assets/DrNike45/DSC05400.jpg';
 import DrN4 from '../assets/DrNike45/DSC05535.webp';
-
 import DrN6 from '../assets/DrNike45/DSC05550.webp';
 import DrN7 from '../assets/DrNike45/DSC05575.webp';
 import DrN8 from '../assets/DrNike45/DSC05597.webp';

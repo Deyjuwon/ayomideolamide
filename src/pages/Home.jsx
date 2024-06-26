@@ -5,10 +5,9 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import aa4 from '../assets/mide4.webp';
 import aa3 from '../assets/mide7.webp';
-
 import aa7 from '../assets/interior.jpg';
 import aa1 from '../assets/IMG_7240.webp';
- 
+import aa5 from '../assets/DSC00479.jpg';
 import aa2 from '../assets/IMG_7255.webp';
 import wed from '../assets/weddings.jpeg'
 import Footer from '../components/Footer';
@@ -20,15 +19,18 @@ const Home = () => {
   const [currentImg, setCurrentImg] = useState(0);
 
   const images = [
+    
     { src: aa1, text: 'portrait' },
+    { src: aa5, text: 'Portrait' },
     { src: aa4, text: 'Portrait' },
+    
     { src: aa7, text: 'interior'},
     { src: aa2, text: 'Portrait' },
     { src: wed, text: 'wedding' },
   ];
 
   useEffect(() => {
-    AOS.init({ duration: 2500, once: true });
+    AOS.init({ duration: 1500, once: true });
 
     const loadingTimer = setTimeout(() => {
       setLoading(false);

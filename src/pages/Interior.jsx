@@ -1,7 +1,7 @@
 import Header from "../components/Header";
-import data from "../utils/WeddingImgs";
+import data from "../utils/InteriorImgs";
 
-const Sports = () => {
+const Interior = () => {
   return (
     <div>
       <Header color="text-gray-400" logoColor="text-black" />
@@ -21,4 +21,4 @@ const Sports = () => {
   );
 };
 
-export default Sports;
+export default Interior;

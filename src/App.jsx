@@ -7,7 +7,7 @@ import Collection from './pages/Collection'
 import Concert from './pages/Concert'
 import Weddings from './pages/Weddings'
 import Sports from './pages/Sports'
-import Nature from './pages/Nature'
+import Interior from './pages/Interior'
 import Portraits from './pages/Portraits'
 import Art from './pages/Art'
 import Faq from './pages/Faq'
@@ -32,7 +32,7 @@ function App() {
       <Route path="/collection/portraits" element={<Portraits />} />
       <Route path="/collection/weddings" element={<Weddings />} />
       <Route path="/collection/sports" element={<Sports />} />
-      <Route path="/collection/nature" element={<Nature />} />
+      <Route path="/collection/interior" element={<Interior />} />
       <Route path="/collection/concert" element={<Concert />} />
       <Route path="/collection/art" element={<Art />} />
       <Route path="/collection/birthdays" element={<Birthdays />} />
