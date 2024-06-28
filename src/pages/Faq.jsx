@@ -69,9 +69,9 @@ const Faq = () => {
               </p>
             </div>
             <div className="flex flex-col gap-4 md:w-2/5">
-              <h3 className="text-base font-semibold leading-8 text-gray-700">WHAT HAPPENS IF IT RAINS ON OUR WEDDING DAY?</h3>
+              <h3 className="text-base font-semibold leading-8 text-gray-700">WHAT HAPPENS IF IT RAINS ON THE DAY OF OUR EVENT?</h3>
               <p className="text-sm md:text-base text-gray-600">
-                Rain or shine, your wedding day is a celebration of your love. Trust us, the rain won't ruin your special day - some of our best wedding shoots have occurred on rainy days. We know lots of wonderful locations that are perfect for wedding pictures in any type of weather condition.
+              Rain or shine, your event is a celebration of your love. Trust us, the rain won't ruin your special day - some of our best shoots have occurred on rainy days. We know lots of wonderful locations that are perfect for pictures in any type of weather condition.
               </p>
             </div>
           </div>

@@ -4,7 +4,7 @@ const data = [
     icon: <MdCancel />,
     heading: "HOW MUCH DOES IT COST TO HIRE YOU?",
     detail:
-      "Every shoot is unique so we have a great selection of packages to fit your needs and budget. Please e-mail or complete the ",
+      "Every shoot is unique so we have a great selection of packages to fit your needs and budget. Please e-mail or complete the contact form on our website for details.",
   },
   {
     icon: <MdCancel />,
@@ -33,9 +33,9 @@ const data = [
   },
   {
     icon: <MdCancel />,
-    heading: "WHAT HAPPENS IF IT RAINS ON THE DAY OF OUR EVENT",
+    heading: "WHAT HAPPENS IF IT RAINS ON THE DAY OF OUR EVENT?",
     detail:
-      "Rain or shine, your event is a celebration of your love. Trust us, the rain won't ruin your special day - some of our best shoots have occurred on rainy days. We know lots of wonderful locations that are perfect for pictures in any type of weather condition..",
+      "Rain or shine, your event is a celebration of your love. Trust us, the rain won't ruin your special day - some of our best shoots have occurred on rainy days. We know lots of wonderful locations that are perfect for pictures in any type of weather condition.",
   },
   {
     icon: <MdCancel />,
