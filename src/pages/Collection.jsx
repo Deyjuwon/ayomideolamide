@@ -27,11 +27,11 @@ export default function Collection() {
   
 
   const images = [
-    { src: aa4, text: 'Portrait', link: '/collection/portraits' },
-    { src: birthday, text: 'birthday', link: '/collection/birthdays' },
-    { src: wed, text: 'Wedding', link: '/collection/weddings' },
-    { src: Interior, text: 'Interior', link: '/collection/interior' },
-    { src: event, text: 'Event', link: '/collection/Event' },
+    { src: aa4, text: 'Portraits', link: '/collection/portraits' },
+    { src: birthday, text: 'Birthdays', link: '/collection/birthdays' },
+    { src: wed, text: 'Weddings', link: '/collection/weddings' },
+    { src: Interior, text: 'Real Estate Interior', link: '/collection/interior' },
+    { src: event, text: 'Events', link: '/collection/Event' },
     { src: sports, text: 'Sports', link: '/collection/sports' },
     
   ];
