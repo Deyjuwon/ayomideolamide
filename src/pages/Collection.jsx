@@ -4,7 +4,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Footer from '../components/Footer';
 import aa4 from '../assets/IMG_7256.jpg';
-import art from '../assets/art.webp'
+import event from '../assets/chopandchill(146).webp';
 // import wed from '../assets/weddings.jpeg'
 import sports from '../assets/sports.jpeg'
 import Interior from '../assets/bluhomes/011A7654.webp'
@@ -31,7 +31,7 @@ export default function Collection() {
     { src: birthday, text: 'birthday', link: '/collection/birthdays' },
     { src: wed, text: 'Wedding', link: '/collection/weddings' },
     { src: Interior, text: 'Interior', link: '/collection/interior' },
-    { src: art, text: 'Art', link: '/collection/art' },
+    { src: event, text: 'Event', link: '/collection/Event' },
     { src: sports, text: 'Sports', link: '/collection/sports' },
     
   ];

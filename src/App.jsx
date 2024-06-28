@@ -9,7 +9,7 @@ import Weddings from './pages/Weddings'
 import Sports from './pages/Sports'
 import Interior from './pages/Interior'
 import Portraits from './pages/Portraits'
-import Art from './pages/Art'
+import Event from './pages/Event'
 import Faq from './pages/Faq'
 import Testimonials from './pages/Testimonials'
 import Birthdays from './pages/Birthdays'
@@ -34,7 +34,7 @@ function App() {
       <Route path="/collection/sports" element={<Sports />} />
       <Route path="/collection/interior" element={<Interior />} />
       <Route path="/collection/concert" element={<Concert />} />
-      <Route path="/collection/art" element={<Art />} />
+      <Route path="/collection/Event" element={<Event />} />
       <Route path="/collection/birthdays" element={<Birthdays />} />
  
       
