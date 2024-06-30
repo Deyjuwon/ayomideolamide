@@ -39,7 +39,7 @@ const Contact = () => {
             <div className='flex flex-col gap-2'>
               <p className='text-gray-500 font-semibold text-sm md:text-sm '>Follow me:</p>
               <div className='flex gap-4'>
-                <a href="https://www.instagram.com/ajayiayomideo/instagram.com" target="_blank"><FaInstagram size={20} /></a>
+                <a href="https://www.instagram.com/ajayiayomideo/" target="_blank"><FaInstagram size={20} /></a>
                 <a href="https://x.com/ajayiayomideo" target="_blank"><FaXTwitter size={20} /></a>
                 <a href="https://www.telegram.com"  target="_blank"><FaTelegramPlane size={20} /></a>
 
