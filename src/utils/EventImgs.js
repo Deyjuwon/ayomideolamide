@@ -9,7 +9,7 @@ import chopz8 from '../assets/chopz/chopandchill(137).webp';
 import chopz9 from '../assets/chopz/chopandchill(138).webp';
 import chopz10 from '../assets/chopz/chopandchill(139).webp';
 import chopz11 from '../assets/chopz/chopandchill(140).webp';
-import chopz12 from '../assets/chopz/chopandchill(146).webp';
+// import chopz12 from '../assets/chopz/chopandchill(146).webp';
 import chopz13 from '../assets/chopz/chopandchill(147).webp';
 import chopz14 from '../assets/chopz/chopandchill(159).webp';
 import cbn1 from '../assets/cbn/AOS03240.webp';
@@ -89,10 +89,7 @@ const EventImgs = [
         imgUrl: chopz11,
         text: "Images from the event chop and chill",
       },
-      {
-        imgUrl: chopz12,
-        text: "Images from the event chop and chill",
-      },
+      
       {
         imgUrl: chopz13,
         text: "Images from the event chop and chill",

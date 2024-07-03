@@ -5,8 +5,7 @@ import 'aos/dist/aos.css';
 import Footer from '../components/Footer';
 import aa4 from '../assets/IMG_7256.jpg';
 import event from '../assets/chopandchill(146).webp';
-// import wed from '../assets/weddings.jpeg'
-import sports from '../assets/sports.jpeg'
+import sports from '../assets/sports.jpeg';
 import Interior from '../assets/bluhomes/011A7654.webp'
 import Skeleton from '../components/Skeleton';
 import Header from '../components/Header';
@@ -16,7 +15,7 @@ import wed from '../assets/DSC00314.jpg';
 export default function Collection() {
   const [loading, setLoading] = useState(true);
   useEffect(() => {
-    AOS.init({ duration: 2000, once: true });
+    AOS.init({ duration: 1000, once: true });
     window.scrollTo(0, 0);
     
     // Simulate a loading delay

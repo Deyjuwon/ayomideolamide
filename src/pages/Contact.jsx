@@ -33,7 +33,7 @@ const Contact = () => {
             <p className='w-full md:w-2/3 text-sm md:text-sm text-gray-500 '>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam eum recusandae earum delectus vel unde tempora sit mollitia fuga, molestiae quidem impedit.</p>
             <div className='flex flex-col gap-2'>
               <p className='text-gray-500 font-semibold md:text-sm text-sm'>Call me:</p>
-              <p className='text-sm md:text-sm text-gray-500 '>+234 9033 221 222</p>
+              <p className='text-sm md:text-sm text-gray-500 '>+234 905 7171 176</p>
             </div>
             
             <div className='flex flex-col gap-2'>

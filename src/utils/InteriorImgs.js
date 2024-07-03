@@ -6,7 +6,7 @@ import bluhomes5 from '../assets/bluhomes/011A7484.jpg';
 import bluhomes6 from '../assets/bluhomes/011A7509.jpg';
 import bluhomes7 from '../assets/bluhomes/011A7563.webp';
 import bluhomes8 from '../assets/bluhomes/011A7571.webp';
-import bluhomes9 from '../assets/bluhomes/011A7654.webp';
+// import bluhomes9 from '../assets/bluhomes/011A7654.webp';
 import bluhomes10 from '../assets/bluhomes/011A7664.webp';
 import bluhomes11 from '../assets/bluhomes/011A7903.webp';
 import bluhomes12 from '../assets/bluhomes/011A8024.webp';
@@ -49,10 +49,7 @@ const InteriorImgs = [
         imgUrl: bluhomes8,
         text: "Blu Homes interior images",
       },
-      {
-        imgUrl: bluhomes9,
-        text: "Blu Homes interior images",
-      },
+      
       {
         imgUrl: bluhomes10,
         text: "Blu Homes interior images",
