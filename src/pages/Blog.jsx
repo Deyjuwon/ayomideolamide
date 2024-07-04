@@ -1,5 +1,5 @@
 import Header from "../components/Header";
-import shalom from '../assets/shalom2.jpg';
+import shalom from '../assets/shalom2.webp';
 
 const Blog = () => {
   return (
