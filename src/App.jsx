@@ -13,6 +13,7 @@ import Event from './pages/Event'
 import Faq from './pages/Faq'
 import Testimonials from './pages/Testimonials'
 import Birthdays from './pages/Birthdays'
+import Blog from './pages/Blog'
 
 function App() {
 
@@ -36,6 +37,8 @@ function App() {
       <Route path="/collection/concert" element={<Concert />} />
       <Route path="/collection/Event" element={<Event />} />
       <Route path="/collection/birthdays" element={<Birthdays />} />
+      <Route path="/blog" element={<Blog />} />
+      
  
       
 

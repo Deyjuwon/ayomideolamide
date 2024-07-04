@@ -24,7 +24,7 @@ const Header = (props) => {
             <li><Link to='/collection' className=" transition duration-200">COLLECTION</Link></li>
             <li><Link to="/about" className=" transition duration-200">ABOUT</Link></li>
             <li><Link to="/contact" className=" transition duration-200">CONTACT</Link></li>
-            <li><Link to="/testimonials" className=" transition duration-200">TESTIMONIAL</Link></li>
+            <li><Link to="/blog" className=" transition duration-200">BLOG</Link></li>
             <li><Link to="/faq" className=" transition duration-200">FAQs</Link></li>
           </ul>
         </nav>

@@ -6,6 +6,19 @@ export default {
   ],
   theme: {
     extend: {
+      keyframes: {
+        typing: {
+          '0%': { width: '0ch' },
+          '100%': { width: '11ch' }, 
+        },
+        blink: {
+          '0%, 100%': { 'border-color': 'transparent' },
+          '50%': { 'border-color': 'black' },
+        },
+      },
+      animation: {
+        typing: 'typing 2s steps(11, end), blink .75s step-end infinite', 
+      },
       colors: {
         'darkWhite': '#f5f5f7',
         'lightBlack': '#D9D9D9',

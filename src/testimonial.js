@@ -1,7 +1,7 @@
-import aa4 from './assets/mide4.jpeg';
+import aa4 from './assets/mide4.webp';
 import aa8 from './assets/mide8.jpeg';
-import aa6 from './assets/mide6.jpeg';
-import aa7 from './assets/mide7.jpeg';
+import aa6 from './assets/mide6.webp';
+import aa7 from './assets/mide7.webp';
 import aap from './assets/mideP.jpeg';
 
 
