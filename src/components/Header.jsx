@@ -47,7 +47,7 @@ const Header = (props) => {
             <li><Link to="/collection" className=" transition duration-200" onClick={handleNavLinkClick}>COLLECTION</Link></li>
             <li><Link to="/about" className=" transition duration-200" onClick={handleNavLinkClick}>ABOUT</Link></li>
             <li><Link to="/contact" className=" transition duration-200" onClick={handleNavLinkClick}>CONTACT</Link></li>
-            <li><Link to="/testimonials" className=" transition duration-200" onClick={handleNavLinkClick}>TESTIMONIAL</Link></li>
+            <li><Link to="/blog" className=" transition duration-200" onClick={handleNavLinkClick}>BLOG</Link></li>
             <li><Link to="/faq" className=" transition duration-200" onClick={handleNavLinkClick}>FAQ</Link></li>
           </ul>
         </div>
