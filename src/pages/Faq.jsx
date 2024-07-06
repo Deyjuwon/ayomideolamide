@@ -25,7 +25,7 @@ const Faq = () => {
     <div>
       <Header color='text-gray-400' logoColor='text-black' />
       <div className="relative">
-        <img src={aa5} alt="FAQ Banner" className="w-full h-44 lg:h-64 object-cover opacity-30" />
+        <img src={aa5} alt="FAQ Banner" className="w-full h-40 lg:h-60 object-cover opacity-30" />
         <p className="text-base md:text-3xl text-gray-500 font-bold absolute inset-0 flex justify-center items-center">FREQUENTLY ASKED QUESTIONS</p>
       </div>
       <div className="py-10 px-4 md:px-10 hidden md:block">
