@@ -1,4 +1,4 @@
-import { useEffect } from'react'
+import { useEffect, useRef } from'react'
 import { FaInstagram } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaTelegramPlane } from "react-icons/fa";
@@ -7,6 +7,7 @@ import { GoArrowDownRight } from "react-icons/go";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Header from '../components/Header';
+
 
 
 
