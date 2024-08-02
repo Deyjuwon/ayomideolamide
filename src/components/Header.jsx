@@ -32,7 +32,7 @@ const Header = (props) => {
       
 
       {isOpened ? (
-        <div className='] flex items-center justify-center h-11 w-11 md:hidden z-50'>
+        <div className=' flex items-center justify-center h-11 w-11 md:hidden z-50'>
           <IoMdClose className='fixed' size={20} onClick={() => setIsOpened(!isOpened)} />
         </div>
       ) : (

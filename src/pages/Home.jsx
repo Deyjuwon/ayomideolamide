@@ -105,11 +105,12 @@ const Home = () => {
           </div>
         </div>
       </section>
-      {/* <Testimonial /> */}
+      <Testimonial />
       <section className='flex justify-center gap-2 items-center py-10'>
         <p className='lg:text-3xl text-base font-medium'>LETS CREATE MAGIC TOGETHER!</p>
         <Link to='/contact'><FaLink size={20} /></Link>
       </section>
+
       <div className="absolute z-50 top-0 w-full">
         <Header logoColor='text-white' color='text-white' hamColor='white' />
 

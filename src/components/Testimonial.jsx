@@ -1,33 +1,53 @@
-import React from 'react';
-import event from '../assets/chopandchill(146).webp';
-import { FaQuoteLeft, FaQuoteRight } from "react-icons/fa6";
-import data from '../testimonial';
+import { useRef } from "react";
+import { IoIosArrowDropleft, IoIosArrowDropright } from "react-icons/io";
+import TestimonialCard from "./TestimonialCard";
+import testimonials from "../testimonial";
 
 const Testimonial = () => {
+  const containerRef = useRef(null);
+
+  const scrollLeft = () => {
+    if (containerRef.current) {
+      containerRef.current.scrollBy({ left: -containerRef.current.clientWidth, behavior: 'smooth' });
+    }
+  };
+
+  const scrollRight = () => {
+    if (containerRef.current) {
+      containerRef.current.scrollBy({ left: containerRef.current.clientWidth, behavior: 'smooth' });
+    }
+  };
+
   return (
-    <div className='flex flex-col justify-center items-center py-10 gap-4 text-darkBlack'>
-      <p className='text-xl'>TESTIMONIALS</p>
-      <p className='text-3xl'>What My Clients Say</p>
-      <div className='flex gap-10 overflow-x-auto'>
-        {
-          data.map((item) => {
-            return (
-              <div key={item.id} className='h-96 w-96 bg-gradient-to-br from-white via-yellow1 to-white rounded-lg px-10 flex flex-col justify-between items-center gap-6'>
-                <div className='flex flex-col gap-6 pt-8 justify-center items-center'>
-                  <img src={item.imgUrlt} alt="" className='rounded-full h-16 w-16 object-cover' />
-                  <p className='text-sm'><FaQuoteLeft /> {item.testimony} <FaQuoteRight /></p>
-                </div>
-                <div className='text-center flex flex-col gap-3 pb-10'>
-                  <p className='text-lg text-black'>{item.name}</p>
-                  <p className='text-sm'>{item.position}</p>
-                </div>
+    <div className="flex flex-col justify-center items-center lg:items-start gap-2 lg:gap-5 lg:px-40 pt-14 text-darkBlack">
+      <p className="text-sm lg:text-lg text-red-400">OUR CLIENTS</p>
+      <p className="lg:text-3xl text-base font-bold text-black">TESTIMONIALS</p>
+      <div className="flex flex-col lg:flex-row gap-5 justify-between items-center">
+        <p className="w-3/4 lg:text-sm text-sm lg:pr-20">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis pariatur vero ea ab velit fugiat odit exercitationem neque, totam reprehenderit quae eveniet aperiam impedit sed eligendi nam non mollitia rem!
+        </p>
+        <div className="flex gap-8">
+          <div className="cursor-pointer" onClick={scrollLeft}>
+            <IoIosArrowDropleft size={50} />
+          </div>
+          <div className="cursor-pointer" onClick={scrollRight}>
+            <IoIosArrowDropright size={50} />
+          </div>
+        </div>
+      </div>
+      <div className="relative w-full overflow-hidden">
+        <div className="flex gap-10 overflow-x-auto justify-center lg:justify-start" ref={containerRef} style={{ scrollSnapType: 'x mandatory' }}>
+          {
+            testimonials.map((testimonial, index) => (
+              <div key={index} className="flex-shrink-0 w-full lg:w-1/4" style={{ scrollSnapAlign: 'center' }}>
+                <TestimonialCard {...testimonial} />
               </div>
-            )
-          })
-        }
+            ))
+          }
+        </div>
       </div>
     </div>
   );
-}
+};
 
 export default Testimonial;

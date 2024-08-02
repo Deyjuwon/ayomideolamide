@@ -7,6 +7,8 @@ import { IoMdClose } from "react-icons/io";
 // Set the root element for the modal
 Modal.setAppElement('#root');
 
+
+
 const Interior = () => {
   const [modalIsOpen, setModalIsOpen] = useState(false);
   const [selectedImage, setSelectedImage] = useState(null);

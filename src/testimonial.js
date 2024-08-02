@@ -5,25 +5,26 @@ import aa7 from './assets/mide7.webp';
 import aap from './assets/mideP.jpeg';
 
 
+
 const testimonials = [
     {
         id: 1,
         name: "John Dosu",
-        testimony: "da fugiat, rerum ut aliquam qhdh dhd hhs uo eum omnis reprehenderit aperiam nam iusto, consequuntur ipsa at harum exercitationem repellat dolorum quis unde esse dicta quia nemo dhjdnd jd jdkejek djdd hsd hjd.",
+        testimony: "da fugiat, rerum ut aliquam qhdh dhd hhs uo eum omnis reprehenderit aperiam nam iusto, consequuntur ipsa at harum exercitationem repell.",
         imgUrl: aa4,
         position: 'Entrepreneur',
     },
     {
         id: 2,
         name: "Kehinde Lawal",
-        testimony: "Fugit nulla alias sit repellat bwcjhbcn hsh hfhf hhd hgrtyw djif fyhgb n kbejvfh hc cvhdhjdw ybf hbjdw bhbwj c Omnis reiciendis, corporis odit odio aliquam in! hgde hcue checee hejkd djdkd fhjdkdj  jkdlc jdk",
+        testimony: "Fugit nulla alias sit repellat bwcjhbcn hsh hfhf hhd  hc cvhdhjdw ybf hbjdw bhbwj c Omnis reiciendis, corporis odit odio aliquam in! hgde hcue checee hejkd djdkd fhjdkdj  jkdlc jdk",
         imgUrl: aap,
         position: 'Politician',
     },
     {
         id:3,
         name: "Eze Monday",
-        testimony: "maiores nostrum maxime quia assumenda incidunt quae consectetur. Neque error tempora iure vitae nulla consequuntur aperiam impedit, exercitationem repellendus, quibusdam possimus labore odit minim ",
+        testimony: "maiores nostrum maxime quia assumenda incidunt quae consectetur. Neque error tempora iure vitae nulla consequuntur aperiam impedit, exercitatios, quibusdam possimus labore odit minim ",
         imgUrl: aa8,
         position: 'Actor',
 
@@ -31,7 +32,7 @@ const testimonials = [
     {
         id:4,
         name: "ike chuks",
-        testimony: "llo omnis amet molestiae possimus dicta minus. Quos,ghjv hbcjkc nhjn vhhkdl  djkjfon  vhgbjwnkn  hhf hdjhd hdjw uetkjkd dfvfjhdcbkwio dolorum eum! Eaque aliquam odit in mus velit eaque, duiodpjehuiem ", 
+        testimony: "llo omnis amet molestiae possimus dicta minus. Quos,ghjv hbcjkc nhjn vhhkdl  djkjfon  vhgbjwnkn dfvfjhdcbkwio dolorum eum! Eaque aliquam odit in mus velit eaque, duiodpjehuiem ", 
         imgUrl: aa6,
         position: 'Designer',
 
@@ -47,7 +48,7 @@ const testimonials = [
     {
         id:6,
         name: "Ezenwa Dele",
-        testimony: "dam possimus labore odit minima Animi nobisbeydnej dhfjjf jdbdts jkglth fgkr fnjf jb wehjxkdhjke djkfh beatae esse eligendi officiis cum qui voluptatum et atque saepe maiores doloremque, maxime quo i",
+        testimony: "dam possimus labore odit minima Animi nobisbeydnej dhfjjf jdbdts jkglth fgkr fnjf jb wehjxkdhjke djkfh beatae esse eligendi officiis cum qui voluptolore mque, maxime quo i",
         imgUrl: aa7,
         position: 'Software Developer',
 

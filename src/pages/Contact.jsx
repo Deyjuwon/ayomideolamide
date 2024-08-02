@@ -12,12 +12,16 @@ import Header from '../components/Header';
 
 
 
+
 const Contact = () => {
+
+
   useEffect(() => {
     AOS.init({ duration: 2000, once: true });
     window.scrollTo(0,0);
     
 }, [])
+
 
   return (
     <div>
@@ -48,11 +52,12 @@ const Contact = () => {
               
             </div>
           </div>
-          <form className=' w-full p-4 md:w-2/5 flex flex-col gap-4' action="" data-aos='zoom-in'>
-            <input placeholder='Full name' type="text" className='border border-gray-300 h-11 pl-4 text-sm outline-none' />
-            <input placeholder='Email' type="text" className='border border-gray-300 h-11 pl-4 text-sm outline-none' />
-            <textarea placeholder='Description' name="" id="" cols="30" rows="10" className='border border-gray-300 pl-4 pt-2 text-sm outline-none'></textarea>
-            <button type="submit" className='border h-11  border-gray-300 hover:bg-darkBlack hover:text-darkWhite text-gray-500 text-sm '>Get in touch</button>
+          <form  className=' w-full p-4 md:w-2/5 flex flex-col gap-4' action="" data-aos='zoom-in'>
+            <input name="user_name" placeholder='Full name' type="text" className='border border-gray-300 h-11 pl-4 text-sm outline-none' />
+            <input name="user_email" placeholder='Email' type="text" className='border border-gray-300 h-11 pl-4 text-sm outline-none' />
+            <textarea name="message" placeholder='Description' className='border border-gray-300 pl-4 pt-2 text-sm outline-none'></textarea>
+            {/* <button type="submit" className='border h-11  border-gray-300 hover:bg-darkBlack hover:text-darkWhite text-gray-500 text-sm '>Get in touch</button> */}
+            <input type="submit" value="Send" className='border h-11 cursor-pointer  border-gray-300 hover:bg-darkBlack hover:text-darkWhite text-gray-500 text-sm ' />
           </form>
         
       </div>
