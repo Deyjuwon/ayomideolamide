@@ -1,4 +1,4 @@
-import { useEffect, useRef } from'react'
+import { useEffect } from'react'
 import { FaInstagram } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaTelegramPlane } from "react-icons/fa";
