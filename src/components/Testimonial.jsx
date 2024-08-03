@@ -11,7 +11,7 @@ const Testimonial = () => {
       <p className="text-sm lg:text-lg text-red-400">OUR CLIENTS</p>
       <p className="lg:text-3xl text-base font-bold text-black">TESTIMONIALS</p>
       <div className="flex flex-col lg:flex-row gap-5 justify-between items-center">
-        <p className="w-3/4 lg:text-sm text-sm lg:pr-20">
+        <p className=" w-11/12 lg:w-3/4 lg:text-sm text-sm lg:pr-20">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis pariatur vero ea ab velit fugiat odit exercitationem neque, totam reprehenderit quae eveniet aperiam impedit sed eligendi nam non mollitia rem!
         </p>
         <div className="flex gap-8">
