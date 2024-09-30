@@ -13,12 +13,10 @@ import aa6 from '../assets/50THbirthday-199.webp';
 import aa8 from '../assets/DSC05490.webp'
 import wed from '../assets/weddings.jpeg'
 import Footer from '../components/Footer';
-import SkeletonHome from '../components/SkeletonHome';
 import Header from '../components/Header';
 import Testimonial from '../components/Testimonial';
 
 const Home = () => {
-  const [loading, setLoading] = useState(true);
   const [currentImg, setCurrentImg] = useState(0);
 
   const images = [
@@ -38,23 +36,20 @@ const Home = () => {
   useEffect(() => {
     AOS.init({ duration: 1500, once: true });
 
-    const loadingTimer = setTimeout(() => {
-      setLoading(false);
-    }, 2000);
+
 
     const interval = setInterval(() => {
       setCurrentImg((prev) => (prev + 1) % images.length);
     }, 3000);
 
     return () => {
-      clearTimeout(loadingTimer);
+      // clearTimeout(loadingTimer);
       clearInterval(interval);
     };
   }, []);
 
   return (
     <div className='relative'>
-      {!loading ? (
         <div className='relative w-full h-screen'>
           <img src={images[currentImg].src} alt={images[currentImg].text} className='lg:h-screen w-full object-cover  h-screen' />
           <div className='absolute inset-0 flex items-start top-1/3 justify-center'>
@@ -63,9 +58,6 @@ const Home = () => {
             </div>
           </div>
         </div>
-      ) : (
-        <div className='h-screen'><SkeletonHome /></div>
-      )}
 
       <section className='flex flex-col gap-4 lg:flex-row items-center justify-center py-10 bg-gradient-to-b md:bg-gradient-to-r from-white to-yellow1 text-darkBlack'>
         <div className='lg:w-1/2 w-full px-4' data-aos='zoom-in'>
