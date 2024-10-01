@@ -2,7 +2,7 @@
 
 const TestimonialCard = (props) => {
   return (
-    <div className="mt-10 after:py-4 px-4 h-72 w-56 rounded-lg shadow-2xl text-sm flex gap-3 flex-col items-center">
+    <div className="mt-10 after:py-4 px-4 h-72 w-56 rounded-lg shadow-2xl text-sm flex gap-3 flex-col items-center border pt-5 mb-5">
         <img src={props.imgUrl} className='rounded-full h-14 w-14 object-cover' alt="" />
         <div className='flex flex-col justify-center items-center'>
             <p className="">{props.name}</p>

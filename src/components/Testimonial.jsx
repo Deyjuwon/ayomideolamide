@@ -36,7 +36,7 @@ const Testimonial = () => {
         </div>
       </div>
       <div className="relative w-full overflow-hidden">
-        <div ref={scrollContainerRef} className="flex gap-10 overflow-x-auto">
+        <div ref={scrollContainerRef} className="flex gap-10 overflow-x-auto no-scrollbar">
           {testimonials.map((testimonial, index) => (
             <div key={index} className="">
               <TestimonialCard {...testimonial} />
