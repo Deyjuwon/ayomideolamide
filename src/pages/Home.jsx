@@ -64,13 +64,12 @@ const Home = () => {
           <p className='lg:text-3xl lg:px-16 text-center font-bold'>CAPTURING MOMENTS FOR GENERATIONS TO COME</p>
         </div>
         <div className='lg:w-1/2 w-full flex flex-col gap-5 px-4 md:px-14' data-aos='fade-up'>
-          <p className='lg:text-sm text-sm lg:pr-20 lg:leading-8 leading-6'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti vitae similique accusantium velit dolores explicabo quaerat reiciendis fugiat tenetur obcaecati beatae odit aut recusandae quod architecto omnis, sed  impedit.Iste error ducimus voluptates tempora aspernatur asperiores atque ut quaerat accusantium maxime, fugit, obcaecati placeat. Quisquam quidem sunt ipsum non assumenda? Repudiandae quos rerum inventore non obcaecati consequuntur architecto aliquid?Temporibus beatae itaque, possimus velit eaque, maiores nostrum maxime quia assumenda incidunt quae consectetur. Neque error tempora iure vitae nulla consequuntur aperiam impedit, exercitationem repellendus, quibusdam possimus labore odit minima?
-            Animi nobis beatae esse eligendi officiis cum qui voluptatum et atque saepe maiores doloremque, maxime quo illo omnis amet molestiae possimus dicta minus. Quos, dolorum eum! Eaque aliquam odit in mus velit eaque, maiores nostrum maxime quia assumenda incidunt quae consectetur. Neque error tempora iure vitae nulla consequuntur aperiam impedit.
+          <p className='lg:text-base text-sm lg:pr-20 lg:leading-8 leading-6'>
+          At the heart of every photograph is a story, a fleeting moment that deserves to be remembered for generations. With a keen eye for detail and a passion for timeless visuals, we capture more than just images—we capture emotions, personalities, and the essence of each moment. From the spontaneous laughter of a loved one to the serene beauty of nature, every shot is crafted with care to ensure it lives on in your memories. We believe that the best moments in life should never fade, and our goal is to turn those moments into lasting works of art, cherished for years to come.
           </p>
           <div className='self-center lg:self-start'>
             <Link to='/collection'>
-              <button className='border rounded-xl border-gray-500 hover:bg-darkBlack hover:text-darkWhite h-12 w-36 text-xs lg:text-xs lg:h-16 lg:w-44'>SEE COLLECTION</button>
+              <button className='border rounded-xl border-gray-500 hover:bg-darkBlack hover:text-darkWhite h-12 w-36 text-xs lg:text-sm lg:h-16 lg:w-44'>SEE COLLECTION</button>
             </Link>
           </div>
         </div>
@@ -86,13 +85,13 @@ const Home = () => {
           <img src={aa3} alt="Nature" className='rounded-full w-1/2' data-aos='zoom-in' />
         </div>
         <div className='lg:w-1/2 w-full flex flex-col gap-5 px-4 md:px-14' data-aos='zoom-in'>
-          <p className='lg:text-sm text-sm lg:pr-20 lg:leading-8 leading-6'>
+          <p className='lg:text-base text-sm lg:pr-20 lg:leading-8 leading-6'>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic porro fugiat dolor ut. Magnam minus, asperiores expedita nemo rerum minima ullam incidunt odit, cum nostrum, eveniet suscipit quis nulla quasi?
             Deserunt incidunt officiis aliquam quo architecto aspernatur, fugit exercitationem molestias non a tempore, ratione laudantium optio maxime corrupti. Eum nihil aliquid quaerat odit quis nam iste repel.
           </p>
           <div className='self-center lg:self-start'>
             <Link to='/about'>
-              <button className='border border-gray-500 rounded-lg hover:bg-darkBlack hover:text-darkWhite h-12 w-36 text-xs lg:text-xs lg:h-16 lg:w-44'>MORE ABOUT ME</button>
+              <button className='border border-gray-500 rounded-lg hover:bg-darkBlack hover:text-darkWhite h-12 w-36 text-xs lg:text-sm lg:h-16 lg:w-44'>MORE ABOUT ME</button>
             </Link>
           </div>
         </div>
