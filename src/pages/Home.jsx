@@ -51,7 +51,7 @@ const Home = () => {
   return (
     <div className='relative'>
         <div className='relative w-full h-screen'>
-          <img src={images[currentImg].src} alt={images[currentImg].text} className='lg:h-screen w-full object-cover  h-screen' />
+          <img src={images[currentImg].src} alt={images[currentImg].text} className=' lg:h-screen w-full object-cover  h-screen' />
           <div className='absolute inset-0 flex items-start top-1/3 justify-center'>
             <div className='scroll-container'>
               <div className='scroll-text  text-white text-base md:text-xl text-center font-bold'>PHOTOGRAPHY, DIGITAL CREATOR, <br /> FOREX ENTHUSIAST</div>
@@ -98,8 +98,8 @@ const Home = () => {
       </section>
       <Testimonial />
       <section className='flex justify-center gap-2 items-center py-10'>
-        <p className='lg:text-3xl text-base font-medium'>LETS CREATE MAGIC TOGETHER!</p>
-        <Link to='/contact'><FaLink size={20} /></Link>
+        <p className='lg:text-3xl text-base font-medium text-[#222222]'>LETS CREATE MAGIC TOGETHER!</p>
+        <Link to='/contact' className='text-[#222222]'><FaLink size={20} /></Link>
       </section>
 
       <div className="absolute z-50 top-0 w-full">

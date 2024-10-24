@@ -12,7 +12,7 @@ const Header = (props) => {
   };
 
   return (
-    <div className="flex  flex-row md:flex-col lg:gap-8 md:gap-4 items-center justify-between px-5 md:justify-around py-4 md:py-6 ">
+    <div className="flex  flex-row md:flex-col lg:gap-8 md:gap-4 items-center justify-between px-4 md:justify-around py-5 md:py-6 ">
       <div>
         <p className={`text-[11px] md:text-sm lg:text-lg  tracking-wider  ${props.logoColor} font-bold logo`}>
           <Link to='/'><span className='font-normal'>AJAYI </span><span className='font-normal'>AYOMIDE</span> <span>OLAMIDE</span></Link>
@@ -36,7 +36,7 @@ const Header = (props) => {
           <IoMdClose className='fixed' size={20} onClick={() => setIsOpened(!isOpened)} />
         </div>
       ) : (
-        <div className=' flex items-center justify-center h-11 w-11 md:hidden'>
+        <div className=' md:hidden'>
           <RxHamburgerMenu size={20} color={props.hamColor} onClick={() => setIsOpened(!isOpened)} />
         </div>
       )}
