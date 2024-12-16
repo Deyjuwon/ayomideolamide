@@ -25,10 +25,8 @@ const About = () => {
           <img src={mideImg} alt="" className='object-cover h-400' /> 
           <div className='md:w-2/4 w-full flex flex-col gap-5'>
             <p className='font-bold text-base '>MEET THE CREATIVE</p>
-            <p className='text-gray-500 flex flex-col gap-5 md:text-sm text-sm'><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quisquam deserunt veritatis doloribus architecto ut eum optio necessitatibus cupiditate quae quidem facilis, officiis aliquam, rem, pariatur perferendis! Quam, atque doloribus.</span>
-            <span>Error eligendi dolor ut fuga cupiditate quas. Fugit nulla alias sit repellat? Omnis reiciendis, corporis odit odio aliquam in!
-            Quibusdam eaque placeat commodi assumenda fugiat, rerum ut aliquam quo eum omnis reprehenderit aperiam nam iusto, consequuntur ipsa at harum exercitationem repellat dolorum quis unde esse dicta quia nemo. </span><span>Voluptas unde recusandae rerum repellat mollitia odio quasi nemo, pariatur iure vel labore obcaecati omnis eius eum ut, vitae voluptate, ipsam quos et eos illum atque ducimus quibusdam? Adipisci, deleniti.
-            Aliquam cumque</span></p>
+            <p className='text-gray-500 flex flex-col gap-5 md:text-sm text-sm'><span>Ajayi Ayomide Olamide is a penultimate student of the University of Lagos, where he is pursuing a degree in Psychology. Alongside his academic journey, he has developed a strong passion for photography, capturing timeless and meaningful moments for individuals, brands, and organizations. His ability to tell stories through visuals has earned him recognition for delivering high-quality portraits, event coverage, and creative imagery.</span>
+            <span>With an eye for detail and a creative approach, Ayomide brings a unique touch to every project he undertakes. He believes that every photograph is more than just an image—it’s a moment frozen in time, meant to be cherished. His work reflects a balance of precision and artistry, ensuring that each shot resonates with emotion and purpose. </span><span>In addition to his photography pursuits, Ayomide is an entreprenuer and actively involved in forex trading, a field that has honed his skills in focus, analysis, and strategic thinking. His dedication to both his creative and analytical interests highlights his versatility and drive to excel in all aspects of his work.</span></p>
           </div>
         </div>
         <div className=' flex flex-col md:flex-row justify-between gap-10 md:px-4 lg:px-44 pb-20 '>

@@ -44,7 +44,7 @@ const Contact = () => {
               <GoArrowDownRight size={40} />
             </div>
             <p className="w-full md:w-2/3 text-sm md:text-sm text-gray-500">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam eum recusandae earum delectus vel unde tempora sit mollitia fuga, molestiae quidem impedit.
+            Have a project, idea, or moment you want captured? Let’s bring it to life together. Whether it's portraits, events, or creative collaborations, I’m here to help you tell your story through stunning visuals. Reach out, and let’s make magic happen!
             </p>
             <div className="flex flex-col gap-2">
               <p className="text-gray-500 font-semibold md:text-sm text-sm">Call me:</p>

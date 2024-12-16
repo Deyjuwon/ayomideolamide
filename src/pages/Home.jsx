@@ -75,8 +75,8 @@ const Home = () => {
         </div>
       </section>
 
-      <section className='text-center py-24 text-sm lg:text-lg text-gray-500 lg:w-3/5 w-full px-4 md:px-14 m-auto' data-aos='zoom-in'>
-        <q className='italic'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident ad voluptas ducimus mollitia ratione error tempora! Fugiat odit quae quam. Similique est molestias repudiandae deserunt dolorem</q>
+      <section className='text-center py-24 lg:text-base text-sm text-gray-500 lg:w-3/5 w-full px-4 md:px-14 m-auto' data-aos='zoom-in'>
+        <q className='italic '>Moments are short-lived, but memories last forever. Through the lens, I craft stories that celebrate life, love, and beauty—ensuring that every emotion lives on</q>
         <p>- Ajayi Ayomide Olamide</p>
       </section>
 
@@ -86,8 +86,7 @@ const Home = () => {
         </div>
         <div className='lg:w-1/2 w-full flex flex-col gap-5 px-4 md:px-14' data-aos='zoom-in'>
           <p className='lg:text-base text-sm lg:pr-20 lg:leading-8 leading-6'>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic porro fugiat dolor ut. Magnam minus, asperiores expedita nemo rerum minima ullam incidunt odit, cum nostrum, eveniet suscipit quis nulla quasi?
-            Deserunt incidunt officiis aliquam quo architecto aspernatur, fugit exercitationem molestias non a tempore, ratione laudantium optio maxime corrupti. Eum nihil aliquid quaerat odit quis nam iste repel.
+          With a passion for storytelling through photography, I aim to capture the essence of every moment—be it the quiet beauty of nature, the raw emotions of a portrait, or the vibrant energy of celebrations. Each shot reflects my commitment to creating timeless visuals that resonate with your memories and emotions.
           </p>
           <div className='self-center lg:self-start'>
             <Link to='/about'>
