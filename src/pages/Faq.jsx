@@ -14,9 +14,11 @@ import 'react-accessible-accordion/dist/fancy-example.css';
 import { MdOutlineArrowDropDown } from 'react-icons/md';
 import data from '../utils/Accordion';
 import Header from '../components/Header';
+import { useNavigate } from 'react-router-dom';
 
 
 const Faq = () => {
+  const navigate = useNavigate();
   useEffect(() => {
     AOS.init({ duration: 2000, once: true });
   }, []);
@@ -37,7 +39,7 @@ const Faq = () => {
             <div className="flex flex-col gap-4 md:w-2/5">
               <h3 className="text-base font-semibold leading-8 text-gray-700">HOW MUCH DOES IT COST TO HIRE YOU?</h3>
               <p className="text-sm md:text-base text-gray-600">
-                Every shoot is unique so we have a great selection of packages to fit your needs and budget. Please e-mail or complete the <a href="./contact" className="underline">contact form</a> on our website for details.
+                Every shoot is unique so we have a great selection of packages to fit your needs and budget. Please e-mail or complete the <span onClick={() => navigate('/contact')}  className="underline cursor-pointer">contact form</span> on our website for details.
               </p>
             </div>
             <div className="flex flex-col gap-4 md:w-2/5">
@@ -51,7 +53,7 @@ const Faq = () => {
             <div className="flex flex-col gap-4 md:w-2/5">
               <h3 className="text-base font-semibold leading-8 text-gray-700">WE LOVE YOUR WORK! HOW DO WE BOOK YOU?</h3>
               <p className="text-sm md:text-base text-gray-600">
-                We are so excited to talk with you and get to be a part of your special day! Simply fill out the form on our <a href="./contact" className="underline">contact section</a>, and we will be in touch to talk details and get your date locked in.
+                We are so excited to talk with you and get to be a part of your special day! Simply fill out the form on our <span onClick={() => navigate('/contact')} className="underline cursor-pointer">contact section</span>, and we will be in touch to talk details and get your date locked in.
               </p>
             </div>
             <div className="flex flex-col gap-4 md:w-2/5">
@@ -85,7 +87,7 @@ const Faq = () => {
             <div className="flex flex-col gap-4 md:w-2/5">
               <h3 className="text-base font-semibold leading-8 text-gray-700">WE HAVE MORE QUESTIONS. HOW DO WE CONTACT YOU?</h3>
               <p className="text-sm md:text-base text-gray-600">
-                Feel free to fill out our <a href="./contact" className="underline">contact form</a>, call us at +234 (90) 444-236-436, or e-mail us.
+                Feel free to fill out our <span onClick={() => navigate('/contact')} className="underline cursor-pointer">contact form</span>, call us at +234 (90) 444-236-436, or e-mail us.
               </p>
             </div>
           </div>

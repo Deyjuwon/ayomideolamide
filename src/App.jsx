@@ -24,20 +24,20 @@ function App() {
       
       
       <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/about" element={<About />} />
-      <Route path="/contact" element={<Contact />} />
-      <Route path="/collection" element={<Collection />} />
-      <Route path="/testimonials" element={<Testimonials />} />
-      <Route path="/faq" element={<Faq />} />
-      <Route path="/collection/portraits" element={<Portraits />} />
-      <Route path="/collection/weddings" element={<Weddings />} />
-      <Route path="/collection/sports" element={<Sports />} />
-      <Route path="/collection/interior" element={<Interior />} />
-      <Route path="/collection/concert" element={<Concert />} />
-      <Route path="/collection/Event" element={<Event />} />
-      <Route path="/collection/birthdays" element={<Birthdays />} />
-      <Route path="/blog" element={<Blog />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/collection" element={<Collection />} />
+        <Route path="/testimonials" element={<Testimonials />} />
+        <Route path="/faq" element={<Faq />} />
+        <Route path="/collection/portraits" element={<Portraits />} />
+        <Route path="/collection/weddings" element={<Weddings />} />
+        <Route path="/collection/sports" element={<Sports />} />
+        <Route path="/collection/interior" element={<Interior />} />
+        <Route path="/collection/concert" element={<Concert />} />
+        <Route path="/collection/Event" element={<Event />} />
+        <Route path="/collection/birthdays" element={<Birthdays />} />
+        <Route path="/blog" element={<Blog />} />
       
  
       
