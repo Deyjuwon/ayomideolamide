@@ -35,7 +35,7 @@ const About = () => {
         <div className=' flex flex-col md:flex-row justify-between gap-10 md:px-4 lg:px-44 pb-20 '>
           <div className='flex flex-col gap-5 w-full md:w-full lg:w-2/5'>
             <p className='text-base font-bold '>WORKED FOR AND WITH</p>
-            <p className='md:text-sm text-sm text-gray-500'>rerum ut aliquam, quo eum omnis, reprehenderit aperiam, nam iusto, consequuntur ipsa, at harum exercitationem, repellat dolorum quis, unde esse dicta, quia nemo.</p>
+            <p className='md:text-sm text-sm text-gray-500'>Yemi Kings Photography Academy, The Grandeur Hotel VI Lagos, Lagos State Government, RCCG Media Team and more.</p>
           </div>
           <div className='flex flex-col gap-5 w-full lg:w-2/6'>
             <p className='text-base font-bold '>LET'S CREATE</p>
