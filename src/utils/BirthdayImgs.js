@@ -2,8 +2,8 @@ import joy1 from '../assets/joy30/AOS09709.jpg';
 import joy2 from '../assets/joy30/AOS09726.jpg';
 import joy3 from '../assets/joy30/AOS09760.jpg';
 import joy4 from '../assets/joy30/AOS09764.jpg';
-import joy5 from '../assets/joy30/AOS09826.jpg';
-import joy6 from '../assets/joy30/AOS09890.jpg';
+// import joy5 from '../assets/joy30/AOS09826.jpg';
+// import joy6 from '../assets/joy30/AOS09890.jpg';
 import joy7 from '../assets/joy30/AOS09904.jpg';
 import joy8 from '../assets/joy30/AOS09911.jpg';
 import joy9 from '../assets/joy30/AOS09955.jpg';
@@ -14,7 +14,7 @@ import joy13 from '../assets/joy30/AOS09992.jpg';
 import joy14 from '../assets/joy30/AOS09999.jpg';
 import DrN1 from '../assets/DrNike45/DSC05400.jpg';
 import DrN4 from '../assets/DrNike45/DSC05535.webp';
-import DrN6 from '../assets/DrNike45/DSC05550.webp';
+// import DrN6 from '../assets/DrNike45/DSC05550.webp';
 import DrN7 from '../assets/DrNike45/DSC05575.webp';
 import DrN8 from '../assets/DrNike45/DSC05597.webp';
 import DrN9 from '../assets/DrNike45/DSC06389.webp';
@@ -38,8 +38,8 @@ import ade1 from '../assets/ade50th/50THbirthday-19.webp';
 import ade2 from '../assets/ade50th/50THbirthday-130.webp';
 import ade3 from '../assets/ade50th/50THbirthday-132.webp';
 import ade4 from '../assets/ade50th/50THbirthday-166.webp';
-import ade5 from '../assets/ade50th/50THbirthday-168.webp';
-import ade6 from '../assets/ade50th/50THbirthday-198.webp';
+// import ade5 from '../assets/ade50th/50THbirthday-168.webp';
+// import ade6 from '../assets/ade50th/50THbirthday-198.webp';
 import ade7 from '../assets/ade50th/50THbirthday-225.webp';
 import ade8 from '../assets/ade50th/50THbirthday-321.webp';
 import ade9 from '../assets/ade50th/50THbirthday-322.webp';
@@ -55,10 +55,10 @@ import img2 from '../assets/mrsajayi/Untitled-2181.webp';
 import img3 from '../assets/mrsajayi/Untitled-2191.webp';
 import img4 from '../assets/mrsajayi/Untitled-2192.webp';
 import img5 from '../assets/mrsajayi/Untitled-2194.webp';
-import img6 from '../assets/mrsajayi/Untitled-2196.webp';
-import img7 from '../assets/mrsajayi/Untitled-2197.webp';
-import img8 from '../assets/mrsajayi/Untitled-2198.webp';
-import img9 from '../assets/mrsajayi/Untitled-2206.webp';
+// import img6 from '../assets/mrsajayi/Untitled-2196.webp';
+// import img7 from '../assets/mrsajayi/Untitled-2197.webp';
+// import img8 from '../assets/mrsajayi/Untitled-2198.webp';
+// import img9 from '../assets/mrsajayi/Untitled-2206.webp';
 import img10 from '../assets/mrsajayi/Untitled-2208.webp';
 import img11 from '../assets/mrsajayi/Untitled-2228.webp';
 import img12 from '../assets/mrsajayi/Untitled-2242.webp';
@@ -83,14 +83,6 @@ const BirthdayImgs = [
     },
     {
         imgUrl: ade4,
-        text: "ade50th birthday pictures",
-    },
-    {
-        imgUrl: ade5,
-        text: "ade50th birthday pictures",
-    },
-    {
-        imgUrl: ade6,
         text: "ade50th birthday pictures",
     },
     {
@@ -141,11 +133,6 @@ const BirthdayImgs = [
         imgUrl: DrN4,
         text: "DR NIKE'S BIRTHDAY IMAGE",
     },
-
-    {
-        imgUrl: DrN6,
-        text: "DR NIKE'S BIRTHDAY IMAGE",
-    },
     {
         imgUrl: DrN7,
         text: "DR NIKE'S BIRTHDAY IMAGE",
@@ -180,14 +167,6 @@ const BirthdayImgs = [
       },
       {
         imgUrl: joy4,
-        text: "joy 30th birthday",
-      },
-      {
-        imgUrl: joy5,
-        text: "joy 30th birthday",
-      },
-      {
-        imgUrl: joy6,
         text: "joy 30th birthday",
       },
       {
@@ -284,10 +263,7 @@ const BirthdayImgs = [
       { imgUrl: img3, text: "mrs ajayi birthday pictures" },
       { imgUrl: img4, text: "mrs ajayi birthday pictures" },
       { imgUrl: img5, text: "mrs ajayi birthday pictures" },
-      { imgUrl: img6, text: "mrs ajayi birthday pictures" },
-      { imgUrl: img7, text: "mrs ajayi birthday pictures" },
-      { imgUrl: img8, text: "mrs ajayi birthday pictures" },
-      { imgUrl: img9, text: "mrs ajayi birthday pictures" },
+      
       { imgUrl: img10, text: "mrs ajayi birthday pictures" },
       { imgUrl: img11, text: "mrs ajayi birthday pictures" },
       { imgUrl: img12, text: "mrs ajayi birthday pictures" },
