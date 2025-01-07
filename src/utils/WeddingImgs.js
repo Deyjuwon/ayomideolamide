@@ -2,8 +2,6 @@ import itunu1 from '../assets/itunu/DSC00021.webp';
 import itunu2 from '../assets/itunu/DSC00023.webp';
 import itunu3 from '../assets/itunu/DSC00027.webp';
 import itunu4 from '../assets/itunu/DSC00037.webp';
-import itunu5 from '../assets/itunu/DSC00148.webp';
-import itunu6 from '../assets/itunu/DSC00182.webp';
 import itunu7 from '../assets/itunu/DSC00266.jpg';
 import itunu8 from '../assets/itunu/DSC00304.jpg';
 import itunu9 from '../assets/itunu/DSC00335.jpg';
@@ -29,14 +27,6 @@ const WeddingImgs = [
       },
       {
         imgUrl: itunu4,
-        text: "Itunu wedding photos",
-      },
-      {
-        imgUrl: itunu5,
-        text: "Itunu wedding photos",
-      },
-      {
-        imgUrl: itunu6,
         text: "Itunu wedding photos",
       },
       {

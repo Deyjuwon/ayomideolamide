@@ -31,9 +31,6 @@ import ademola11 from '../assets/ademola/DSC06942.webp';
 import ademola12 from '../assets/ademola/DSC07034.webp';
 import ademola13 from '../assets/ademola/DSC07042.webp';
 import ademola14 from '../assets/ademola/DSC07047.webp';
-import ademola15 from '../assets/ademola/DSC07114.webp';
-import ademola16 from '../assets/ademola/DSC07128.webp';
-import ademola17 from '../assets/ademola/DSC07149.webp';
 import ade1 from '../assets/ade50th/50THbirthday-19.webp';
 import ade2 from '../assets/ade50th/50THbirthday-130.webp';
 import ade3 from '../assets/ade50th/50THbirthday-132.webp';
@@ -246,18 +243,7 @@ const BirthdayImgs = [
         imgUrl: ademola14,
         text: "Mr. Ademola birthday party",
       },
-      {
-        imgUrl: ademola15,
-        text: "Mr. Ademola birthday party",
-      },
-      {
-        imgUrl: ademola16,
-        text: "Mr. Ademola birthday party",
-      },
-      {
-        imgUrl: ademola17,
-        text: "Mr. Ademola birthday party",
-      },
+
       { imgUrl: img1, text: "mrs ajayi birthday pictures" },
       { imgUrl: img2, text: "mrs ajayi birthday pictures" },
       { imgUrl: img3, text: "mrs ajayi birthday pictures" },
