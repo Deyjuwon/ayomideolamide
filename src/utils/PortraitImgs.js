@@ -5,8 +5,6 @@ import portrait4 from '../assets/portraits/DSC06697.jpg';
 import portrait5 from '../assets/portraits/DSC07504copy.jpg';
 import portrait6 from '../assets/portraits/DSC07598copy1.jpg';
 import portrait7 from '../assets/portraits/DSC07724.jpg';
-import portrait8 from '../assets/portraits/DSC08615-Recoveredcopy.jpg';
-import portrait9 from '../assets/portraits/IMG_7240.jpg';
 import portrait10 from '../assets/portraits/IMG_7242.jpg';
 import portrait11 from '../assets/portraits/IMG_7244.jpg';
 import portrait12 from '../assets/portraits/IMG_7245.jpg';
@@ -14,10 +12,8 @@ import portrait13 from '../assets/portraits/IMG_7246.jpg';
 import portrait14 from '../assets/portraits/IMG_7247.jpg';
 import portrait15 from '../assets/portraits/IMG_7248.jpg';
 import portrait16 from '../assets/portraits/IMG_7250.jpg';
-import portrait17 from '../assets/portraits/IMG_7252.jpg';
 import portrait18 from '../assets/portraits/IMG_7256.jpg';
 import portrait19 from '../assets/portraits/shalom2.jpg';
-import portrait20 from '../assets/portraits/tobifianl3.jpg';
 import portrait21 from '../assets/portraits/ITUNU5.webp';
 
 
@@ -42,14 +38,6 @@ const PortraitImgs = [
     },
     {
       imgUrl: portrait7,
-      text: "portrait image",
-    },
-    {
-      imgUrl: portrait8,
-      text: "portrait image",
-    },
-    {
-      imgUrl: portrait9,
       text: "portrait image",
     },
     {
@@ -94,10 +82,6 @@ const PortraitImgs = [
       text: "portrait image",
     },
     {
-      imgUrl: portrait17,
-      text: "portrait image",
-    },
-    {
       imgUrl: portrait18,
       text: "portrait image",
     },
@@ -105,10 +89,6 @@ const PortraitImgs = [
       imgUrl: portrait19,
       text: "portrait image",
     },
-    {
-      imgUrl: portrait20,
-      text: "portrait image",
-    }
   ];
   
 
