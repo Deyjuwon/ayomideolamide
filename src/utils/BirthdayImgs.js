@@ -3,8 +3,6 @@ import joy2 from '../assets/joy30/AOS09726.jpg';
 import joy3 from '../assets/joy30/AOS09760.jpg';
 import joy8 from '../assets/joy30/AOS09911.jpg';
 import joy9 from '../assets/joy30/AOS09955.jpg';
-import joy10 from '../assets/joy30/AOS09964.jpg';
-import joy11 from '../assets/joy30/AOS09973.jpg';
 import joy14 from '../assets/joy30/AOS09999.jpg';
 import DrN1 from '../assets/DrNike45/DSC05400.jpg';
 import DrN8 from '../assets/DrNike45/DSC05597.webp';
@@ -17,10 +15,8 @@ import ademola6 from '../assets/ademola/DSC06235.webp';
 import ademola7 from '../assets/ademola/DSC06401.webp';
 import ademola8 from '../assets/ademola/DSC06541.webp';
 import ademola9 from '../assets/ademola/DSC06573.webp';
-import ademola10 from '../assets/ademola/DSC06902.webp';
 import ademola11 from '../assets/ademola/DSC06942.webp';
 import ademola13 from '../assets/ademola/DSC07042.webp';
-import ademola14 from '../assets/ademola/DSC07047.webp';
 import ade1 from '../assets/ade50th/50THbirthday-19.webp';
 import ade2 from '../assets/ade50th/50THbirthday-130.webp';
 import ade3 from '../assets/ade50th/50THbirthday-132.webp';
@@ -36,8 +32,6 @@ import ade16 from '../assets/ade50th/IMG_2803.webp';
 import img1 from '../assets/mrsajayi/Untitled-2180.webp';
 import img2 from '../assets/mrsajayi/Untitled-2181.webp';
 import img3 from '../assets/mrsajayi/Untitled-2191.webp';
-import img4 from '../assets/mrsajayi/Untitled-2192.webp';
-import img5 from '../assets/mrsajayi/Untitled-2194.webp';
 import img12 from '../assets/mrsajayi/Untitled-2242.webp';
 import img13 from '../assets/mrsajayi/Untitled-2243.webp';
 import img14 from '../assets/mrsajayi/Untitled-2244.webp';
@@ -135,14 +129,7 @@ const BirthdayImgs = [
         imgUrl: joy9,
         text: "joy 30th birthday",
       },
-      {
-        imgUrl: joy10,
-        text: "joy 30th birthday",
-      },
-      {
-        imgUrl: joy11,
-        text: "joy 30th birthday",
-      },
+      
       {
         imgUrl: joy14,
         text: "joy 30th birthday",
@@ -172,10 +159,7 @@ const BirthdayImgs = [
         imgUrl: ademola9,
         text: "Mr. Ademola birthday party",
       },
-      {
-        imgUrl: ademola10,
-        text: "Mr. Ademola birthday party",
-      },
+    
       {
         imgUrl: ademola11,
         text: "Mr. Ademola birthday party",
@@ -184,16 +168,11 @@ const BirthdayImgs = [
         imgUrl: ademola13,
         text: "Mr. Ademola birthday party",
       },
-      {
-        imgUrl: ademola14,
-        text: "Mr. Ademola birthday party",
-      },
+      
 
       { imgUrl: img1, text: "mrs ajayi birthday pictures" },
       { imgUrl: img2, text: "mrs ajayi birthday pictures" },
       { imgUrl: img3, text: "mrs ajayi birthday pictures" },
-      { imgUrl: img4, text: "mrs ajayi birthday pictures" },
-      { imgUrl: img5, text: "mrs ajayi birthday pictures" },
       { imgUrl: img12, text: "mrs ajayi birthday pictures" },
       { imgUrl: img13, text: "mrs ajayi birthday pictures" },
       { imgUrl: img14, text: "mrs ajayi birthday pictures" }
